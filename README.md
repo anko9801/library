@@ -1,2 +1,1 @@
-# ancoder
 競プロetc
