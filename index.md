@@ -42,3 +42,8 @@ layout: page
 - [フェニック木](./posts/fenwicktree)
 - [UnionFind](./posts/unionfind)
 - [ポテンシャル付きUnionFind](./posts/pot-unionfind)
+
+<h2>暗号</h2>
+
+<h2>テンプレート</h2>
+- [ヒューリスティック](./posts/heuristic)
