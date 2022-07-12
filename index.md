@@ -8,7 +8,8 @@ layout: page
 
 ねこみみsuperタイム
 
-<h2>数学</h2>
+## 数学
+
 - [数学詰め合わせパック](./posts/basic-math)
 - [二項係数](./posts/binomial-coefficient)
 - [素因数分解(線形篩)](./posts/sieve)
@@ -18,7 +19,8 @@ layout: page
 - [高速フーリエ変換(FFT)](./posts/fft)
 - [数論変換(NTT)](./posts/ntt)
 
-<h2>アルゴリズム</h2>
+## アルゴリズム
+
 - [二次元配列の回転](./posts/vector2d-rotate)
 - [ランレングス圧縮](./posts/run-length-encode)
 - [偏角ソート](./posts/arg-sort)
@@ -28,7 +30,8 @@ layout: page
 - [最長増加部分列](./posts/lis)
 - [ローリングハッシュ](./posts/rollinghash)
 
-<h2>グラフ</h2>
+## グラフ
+
 - [ダイクストラ法](./posts/dijkstra)
 - [ベルマンフォード法](./posts/bellmanford)
 - [クラスカル法](./posts/kruskal)
@@ -37,13 +40,16 @@ layout: page
 - [最小共通祖先](./posts/lowest-common-ancestor)
 - [ディニッツ法](./posts/dinic)
 
-<h2>データ構造</h2>
+## データ構造
+
 - [セグメント木](./posts/segmenttree)
 - [フェニック木](./posts/fenwicktree)
 - [UnionFind](./posts/unionfind)
 - [ポテンシャル付きUnionFind](./posts/pot-unionfind)
 
-<h2>暗号</h2>
+## テンプレート
 
-<h2>テンプレート</h2>
+- [競プロ](./posts/template)
 - [ヒューリスティック](./posts/heuristic)
+- [pwn](./posts/pwn)
+- [Reversing](./posts/rev)
