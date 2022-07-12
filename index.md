@@ -10,6 +10,8 @@ layout: page
 
 ## 数学
 
+- [Modint](./posts/modint)
+- [幾何ライブラリ](./posts/geometry)
 - [数学詰め合わせパック](./posts/basic-math)
 - [二項係数](./posts/binomial-coefficient)
 - [素因数分解(線形篩)](./posts/sieve)
