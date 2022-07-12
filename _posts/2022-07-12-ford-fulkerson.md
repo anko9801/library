@@ -1,4 +1,17 @@
+---
+title: "FordFulkerson"
+permalink: /posts/ford-fulkerson
+writer: anko9801
+layout: library
+---
 
+## 説明
+
+## 計算量
+
+## 実装
+
+```cpp
 #include <vector>
 
 class FordFulkerson {
@@ -45,3 +58,6 @@ public:
     }
   }
 };
+```
+
+## 使用例

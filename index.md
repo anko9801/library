@@ -8,19 +8,6 @@ layout: page
 
 ねこみみsuperタイム
 
-## 数学
-
-- [Modint](./posts/modint)
-- [幾何ライブラリ](./posts/geometry)
-- [数学詰め合わせパック](./posts/basic-math)
-- [二項係数](./posts/binomial-coefficient)
-- [素因数分解(線形篩)](./posts/sieve)
-- [拡張ユークリッドの互除法](./posts/bezout-coef)
-- [凸包](./posts/convexhull)
-- [オイラーのφ関数](./posts/totient)
-- [高速フーリエ変換(FFT)](./posts/fft)
-- [数論変換(NTT)](./posts/ntt)
-
 ## アルゴリズム
 
 - [二次元配列の回転](./posts/vector2d-rotate)
@@ -34,20 +21,95 @@ layout: page
 
 ## グラフ
 
-- [ダイクストラ法](./posts/dijkstra)
-- [ベルマンフォード法](./posts/bellmanford)
-- [クラスカル法](./posts/kruskal)
-- [二部グラフ判定](./posts/bipartite)
-- [木の直径](./posts/double-sweep)
-- [最小共通祖先](./posts/lowest-common-ancestor)
-- [ディニッツ法](./posts/dinic)
+- 最短路
+  - [単一始点最短路 (Dijkstra)](./posts/dijkstra)
+  - [単一始点最短路 (Bellman-Ford)](./posts/bellmanford)
+  - k-最短路
+  - 全点対間最短路 (Floyd Warshall)
+  - 全点対間最短路 (Johnson)
+- 全域木
+  - [最小全域森 (Kruskal)](./posts/kruskal)
+- フロー
+  - [最大流 (Dinic)](./posts/dinic)
+  - [最大流 (Ford Fulkerson)](./posts/ford-fulkerson)
+- マッチング
+  - [二部グラフ判定](./posts/bipartite)
+  - [最大マッチング]
+- ツリー
+  - [木の直径](./posts/double-sweep)
+  - [最小共通祖先](./posts/lowest-common-ancestor)
+- 最大クリーク
+- 強連結成分分解
 
 ## データ構造
 
-- [セグメント木](./posts/segmenttree)
-- [フェニック木](./posts/fenwicktree)
-- [UnionFind](./posts/unionfind)
-- [ポテンシャル付きUnionFind](./posts/pot-unionfind)
+- UnionFind
+  - [UnionFind](./posts/unionfind)
+  - [ポテンシャル付きUnionFind](./posts/pot-unionfind)
+- 平衡二分探索木
+  - AVL木
+  - 赤黒木
+  - Splay木
+  - Treap
+- Wavelet Matrix
+- [BIT(Binary-Indexed-Tree) / Fenwick Tree](./posts/fenwicktree)
+- Segment Tree
+  - [セグメント木](./posts/segment-tree)
+  - [遅延セグメント木](./posts/lazy-segment-tree)
+  - [Segment tree beats](./posts/segment-tree-beats)
+
+## 数学
+
+- 法演算
+  - [Modint](./posts/modint)
+  - [拡張ユークリッドの互除法](./posts/bezout-coef)
+  - [平方剰余 (Tonelli Shanks)]()
+  - 離散対数問題
+- 近似分数
+- 組合せ
+- 進数変換
+- 階乗
+- 最大公約数
+- 中国剰余定理
+- 数論的関数
+  - オイラーのφ関数
+  - メビウスのμ関数
+  - カーマイケルのλ関数
+- 行列演算
+  - 行列
+  - LU分解
+  - 固有値・固有ベクトル
+- [数学詰め合わせパック](./posts/math)
+- [二項係数](./posts/binomial-coefficient)
+- 素数
+  - [素因数分解 (線形篩)](./posts/sieve)
+  - [素因数分解 (Fermat's Method)]()
+  - [素因数分解 (Pollard-\rho)]()
+  - [素数判定]()
+  - [確率的素数判定 (Millar-Rabin)]()
+  - [素数列挙 (エラトステネスの篩)]()
+- [高速ゼータ変換](./posts/zeta)
+- [高速メビウス変換](./posts/mebius)
+- [高速フーリエ変換(FFT)](./posts/fft)
+- [数論変換(NTT)](./posts/ntt)
+- [任意mod畳み込み]()
+- 格子
+  - [LLL](./posts/lll)
+- 多項式
+  - [形式的冪級数](./posts/fps)
+  - [Coppersmith Method](./posts/coppersmith)
+- [グレブナー基底](./posts/grobner)
+- [終結式](./posts/resultant)
+
+## 幾何
+
+- [幾何ライブラリ](./posts/geometry)
+
+## 文字列
+
+## ソート
+
+## その他
 
 ## テンプレート
 
