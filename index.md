@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 writer: anko9801
-layout: page
+layout: library
 ---
 
 superねこみみタイム
@@ -13,17 +13,17 @@ superねこみみタイム
 - UnionFind
   - [UnionFind](./posts/unionfind)
   - [ポテンシャル付きUnionFind](./posts/pot-unionfind)
+- [BIT(Binary-Indexed-Tree) / Fenwick Tree](./posts/fenwicktree)
+- Segment Tree
+  - [セグメント木](./posts/segment-tree)
+  - [遅延セグメント木](./posts/lazy-segment-tree)
+  - [Segment tree beats](./posts/segment-tree-beats)
 - 平衡二分探索木
   - AVL木
   - 赤黒木
   - Splay木
   - Treap
 - Wavelet Matrix
-- [BIT(Binary-Indexed-Tree) / Fenwick Tree](./posts/fenwicktree)
-- Segment Tree
-  - [セグメント木](./posts/segment-tree)
-  - [遅延セグメント木](./posts/lazy-segment-tree)
-  - [Segment tree beats](./posts/segment-tree-beats)
 
 ## グラフ
 
@@ -55,8 +55,6 @@ superねこみみタイム
 - [反復写像](./posts/iterated-function)
 - [スライド最小値](./posts/slideminimum)
 - [座標圧縮](./posts/compress)
-- [最長増加部分列](./posts/lis)
-- [ローリングハッシュ](./posts/rollinghash)
 
 ## 数学
 
@@ -69,7 +67,7 @@ superねこみみタイム
   - [二項係数](./posts/binomial-coefficient)
 - [形式的冪級数](./posts/fps)
 - 進数変換
-- [拡張ユークリッドの互除法](./posts/bezout-coef)
+- [Euclid の互除法](./posts/bezout-coef)
 - 最大公約数/最小公倍数
 - 中国剰余定理
 - 行列演算
@@ -78,7 +76,7 @@ superねこみみタイム
   - 固有値・固有ベクトル
 - 素数
   - [素因数分解 (線形篩)](./posts/sieve)
-  - [高速素因数分解 (Pollard-$$\rho$$/Millar-Rabin)]()
+  - [高速素因数分解 (Pollard-$$\rho$$法/Millar-Rabin)]()
   - [素数判定]()
   - [素数列挙 (エラトステネスの篩)]()
 - [高速ゼータ変換/高速メビウス変換](./posts/zeta)
@@ -86,20 +84,9 @@ superねこみみタイム
 - [数論変換(NTT)](./posts/ntt)
 - [任意mod畳み込み]()
 - 数論的関数
-  - オイラーのφ関数
-  - メビウスのμ関数
-  - カーマイケルのλ関数
-- 近似分数
-- 格子
-  - [LLL](./posts/lll)
-- 多項式
-  - [Coppersmith Method](./posts/coppersmith)
-  - [グレブナー基底](./posts/grobner)
-  - [終結式](./posts/resultant)
-- 楕円曲線
-  - ECDLP
-  - Millarのアルゴリズム
-  - Tate pairing / Weil pairing
+  - オイラーの$$\phi$$関数
+  - メビウスの$$\mu$$関数
+  - カーマイケルの$$\lambda$$関数
 
 ## 幾何
 
@@ -108,14 +95,21 @@ superねこみみタイム
 ## 文字列
 
 - [Z algorithm]()
+- [最長増加部分列](./posts/lis)
+- [ローリングハッシュ](./posts/rollinghash)
+- Boyer-Moore
+- LL1 parser
 
 ## Pwn
 
+使用言語はPythonまたはC言語です。
+
 - [Format String Attack]()
+- Stack Exploit
+  - ret2xxx
+    - ret2libc
+  - Return Oriented Programming
 - GOT overwrite
-- ret2xxx
-  - ret2libc
-- Return Oriented Programming
 - Heap Exploit
   - [tcache poisoning]()
   - Heap Spray
@@ -132,6 +126,16 @@ superねこみみタイム
 
 ## Crypto
 
+使用言語はPythonまたはSageMathです。
+
+- ディオファントス近似
+- 格子
+  - [LLL](./posts/lll)
+  - BKS
+- 多項式
+  - [Coppersmith Method](./posts/coppersmith)
+  - [グレブナー基底](./posts/grobner)
+  - [終結式](./posts/resultant)
 - RSA暗号
   - Wiener's Attack
   - Boneh-Durfee Attack
@@ -144,8 +148,12 @@ superねこみみタイム
   - Franklin-Reiter Related Message Attack
   - Partial Key Exposure Attack
   - 逆元が存在しないとき
-- 楕円曲線暗号
+- 楕円曲線
   - ECDLP
+  - Millarのアルゴリズム
+  - Tate pairing / Weil pairing
+  - ECFFT
+- 楕円曲線暗号
   - Polig-Hellman Attack
   - MOV Reduction
   - FR Reduction
@@ -153,7 +161,6 @@ superねこみみタイム
   - Invalid Curve Attack
   - GHS Attack
   - Weil decsent
-  - ECFFT
 
 ## テンプレート
 
