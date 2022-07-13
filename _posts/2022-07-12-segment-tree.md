@@ -1,3 +1,17 @@
+---
+title: ""
+permalink: /posts/
+writer: anko9801
+layout: library
+---
+
+## 説明
+
+## 計算量
+
+## 実装
+
+```cpp
 #include <algorithm>
 #include <cassert>
 #include <vector>
@@ -159,3 +173,7 @@ int main() {
     }
   }
 }
+
+```
+
+## 使用例
