@@ -1,6 +1,5 @@
 ---
 title: "angr"
-category: "テンプレート"
 permalink: /snippets/angr
 writer: anko9801
 layout: library

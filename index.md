@@ -74,6 +74,7 @@ superねこみみタイム
   - [階乗](./snippets/factorial)
   - [二項係数](./snippets/binomial-coefficient)
 - [形式的冪級数](./snippets/fps)
+- Half GCD
 - 進数変換
 - [Euclid の互除法](./snippets/bezout-coef)
 - 最大公約数/最小公倍数
@@ -146,16 +147,16 @@ superねこみみタイム
   - [終結式](./snippets/resultant)
 - RSA暗号
   - [Wiener's Attack](./snippets/wieners-attack)
-  - Boneh-Durfee Attack
-  - Common Modulus Attack
-  - Håstad's Broadcast Attack
-  - Small Common Private Exponent Attack
-  - 適応的選択暗号文攻撃
-  - LSB Decryption Oracle Attack
-  - RSA-CRT Fault Attack
-  - Franklin-Reiter Related Message Attack
-  - Partial Key Exposure Attack
-  - 逆元が存在しないとき
+  - [Boneh-Durfee Attack](./snippets/boneh-durfee)
+  - [Common Modulus Attack](./snippets/common-modulus)
+  - [Håstad's Broadcast Attack](./snippets/hastads-broadcast)
+  - [Small Common Private Exponent Attack](./snippets/small-private-exponent)
+  - [適応的選択暗号文攻撃](./snippets/rsa-cca)
+  - [LSB Decryption Oracle Attack](./snippets/lsb-decryption-oracle)
+  - [RSA-CRT Fault Attack](./snippets/rsa-crt-fault)
+  - [Franklin-Reiter Related Message Attack](./snippets/franklin-reiter)
+  - [Partial Key Exposure Attack](./snippets/partial-key)
+  - [逆元が存在しないとき](./snippets/no-inverse)
 - 楕円曲線
   - ECDLP
   - Millarのアルゴリズム
