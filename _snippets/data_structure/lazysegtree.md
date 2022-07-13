@@ -1,6 +1,6 @@
 ---
 title: "遅延セグメント木"
-permalink: /snippets/lazy-segment-tree
+permalink: /snippets/lazysegtree
 writer: anko9801
 layout: library
 ---
@@ -13,3 +13,4 @@ layout: library
 
 {% include cpp.html code="lazysegtree.cpp" %}
 
+## 使用例

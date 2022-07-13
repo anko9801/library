@@ -20,11 +20,11 @@ superねこみみタイム
 - UnionFind
   - [UnionFind](./snippets/unionfind)
   - [ポテンシャル付きUnionFind](./snippets/pot-unionfind)
-- [BIT(Binary-Indexed-Tree) / Fenwick Tree](./snippets/fenwicktree)
+- [BIT (Binary-Indexed-Tree) / Fenwick Tree](./snippets/fenwicktree)
 - Segment Tree
-  - [セグメント木](./snippets/segment-tree)
-  - [遅延セグメント木](./snippets/lazy-segment-tree)
-  - [Segment tree beats](./snippets/segment-tree-beats)
+  - [セグメント木](./snippets/segtree)
+  - [遅延セグメント木](./snippets/lazysegtree)
+  - [Segment tree beats](./snippets/segtreebeats)
 - 平衡二分探索木
   - AVL木
   - 赤黒木
