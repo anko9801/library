@@ -11,6 +11,6 @@ layout: library
 
 ## 実装
 
-{% include cpp.html code="template.cpp" %}
+{% include cpp.html code="template/template.cpp" %}
 
 ## 使用例

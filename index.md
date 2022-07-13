@@ -145,7 +145,7 @@ superねこみみタイム
   - [グレブナー基底](./snippets/grobner)
   - [終結式](./snippets/resultant)
 - RSA暗号
-  - Wiener's Attack
+  - [Wiener's Attack](./snippets/wieners-attack)
   - Boneh-Durfee Attack
   - Common Modulus Attack
   - Håstad's Broadcast Attack

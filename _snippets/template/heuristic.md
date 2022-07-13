@@ -11,4 +11,4 @@ layout: library
 
 ## 実装
 
-{% include cpp.html code="heuristic.cpp" %}
+{% include cpp.html code="template/heuristic.cpp" %}

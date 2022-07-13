@@ -16,7 +16,7 @@ layout: library
 
 ## 実装
 
-{% include python.html code="rev.py" %}
+{% include python.html code="rev/rev.py" %}
 
 ## 使用例
 

@@ -15,7 +15,7 @@ CTF pwnで使うテンプレート
 
 ## 実装
 
-{% include python.html code="solve.py" %}
+{% include python.html code="pwn/solve.py" %}
 
 ## 使用例
 
