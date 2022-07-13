@@ -1,6 +1,6 @@
 ---
 title: "数学"
-permalink: /posts/math
+permalink: /snippets/math
 writer: anko9801
 layout: library
 ---

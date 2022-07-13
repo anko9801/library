@@ -1,6 +1,6 @@
 ---
 title: "素因数分解(線形篩)"
-permalink: /posts/sieve
+permalink: /snippets/sieve
 writer: anko9801
 layout: library
 ---

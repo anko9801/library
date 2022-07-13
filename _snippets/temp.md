@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /posts/
+permalink: /snippets/
 writer: anko9801
 layout: library
 ---
@@ -11,7 +11,6 @@ layout: library
 
 ## 実装
 
-```cpp
-```
+{% include cpp.html code="template.cpp" %}
 
 ## 使用例

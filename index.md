@@ -8,16 +8,23 @@ layout: library
 
 superねこみみタイム
 
+<!-- {% assign mydocs = site.snippets | group_by: 'category' %}
+{% for cat in mydocs %}
+
+## {{ cat.name }}
+{% assign items = cat.items | sort: 'title' %}{% for item in items %}
+- [{{item.title}}]({{ item.url | relative_url }}){% endfor %}{% endfor %} -->
+
 ## データ構造
 
 - UnionFind
-  - [UnionFind](./posts/unionfind)
-  - [ポテンシャル付きUnionFind](./posts/pot-unionfind)
-- [BIT(Binary-Indexed-Tree) / Fenwick Tree](./posts/fenwicktree)
+  - [UnionFind](./snippets/unionfind)
+  - [ポテンシャル付きUnionFind](./snippets/pot-unionfind)
+- [BIT(Binary-Indexed-Tree) / Fenwick Tree](./snippets/fenwicktree)
 - Segment Tree
-  - [セグメント木](./posts/segment-tree)
-  - [遅延セグメント木](./posts/lazy-segment-tree)
-  - [Segment tree beats](./posts/segment-tree-beats)
+  - [セグメント木](./snippets/segment-tree)
+  - [遅延セグメント木](./snippets/lazy-segment-tree)
+  - [Segment tree beats](./snippets/segment-tree-beats)
 - 平衡二分探索木
   - AVL木
   - 赤黒木
@@ -28,46 +35,47 @@ superねこみみタイム
 ## グラフ
 
 - 最短路
-  - [単一始点最短路 (Dijkstra)](./posts/dijkstra)
-  - [単一始点最短路 (Bellman-Ford)](./posts/bellmanford)
+  - [単一始点最短路 (Dijkstra)](./snippets/dijkstra)
+  - [単一始点最短路 (Bellman-Ford)](./snippets/bellmanford)
   - k-最短路
   - 全点対間最短路 (Floyd Warshall)
   - 全点対間最短路 (Johnson)
 - 全域木
-  - [最小全域森 (Kruskal)](./posts/kruskal)
+  - [最小全域森 (Kruskal)](./snippets/kruskal)
 - フロー
-  - [最大流 (Dinic)](./posts/dinic)
-  - [最大流 (Ford Fulkerson)](./posts/ford-fulkerson)
+  - [最大流 (Dinic)](./snippets/dinic)
+  - [最大流 (Ford Fulkerson)](./snippets/ford-fulkerson)
 - マッチング
-  - [二部グラフ判定](./posts/bipartite)
+  - [二部グラフ判定](./snippets/bipartite)
   - [最大マッチング]()
 - ツリー
-  - [木の直径](./posts/double-sweep)
-  - [最小共通祖先](./posts/lowest-common-ancestor)
+  - [木の直径](./snippets/double-sweep)
+  - [最小共通祖先](./snippets/lowest-common-ancestor)
 - 最大クリーク
 - 強連結成分分解
 
 ## アルゴリズム
 
-- [二次元配列の回転](./posts/vector2d-rotate)
-- [ランレングス圧縮](./posts/run-length-encode)
-- [偏角ソート](./posts/arg-sort)
-- [反復写像](./posts/iterated-function)
-- [スライド最小値](./posts/slideminimum)
-- [座標圧縮](./posts/compress)
+- [二次元配列の回転](./snippets/vector2d-rotate)
+- [ランレングス圧縮](./snippets/run-length-encode)
+- [偏角ソート](./snippets/arg-sort)
+- [反復写像](./snippets/iterated-function)
+- [スライド最小値](./snippets/slideminimum)
+- [座標圧縮](./snippets/compress)
 
 ## 数学
 
 - modulo
-  - [Modint](./posts/modint)
+  - [Modint](./snippets/modint)
+  - [任意Modint](./snippets/arbitrary-modint)
   - [平方剰余 (Tonelli Shanks)]()
   - 離散対数問題
 - 組合せ
-  - [階乗](./posts/factorial)
-  - [二項係数](./posts/binomial-coefficient)
-- [形式的冪級数](./posts/fps)
+  - [階乗](./snippets/factorial)
+  - [二項係数](./snippets/binomial-coefficient)
+- [形式的冪級数](./snippets/fps)
 - 進数変換
-- [Euclid の互除法](./posts/bezout-coef)
+- [Euclid の互除法](./snippets/bezout-coef)
 - 最大公約数/最小公倍数
 - 中国剰余定理
 - 行列演算
@@ -75,13 +83,13 @@ superねこみみタイム
   - LU分解
   - 固有値・固有ベクトル
 - 素数
-  - [素因数分解 (線形篩)](./posts/sieve)
+  - [素因数分解 (線形篩)](./snippets/sieve)
   - [高速素因数分解 (Pollard-$$\rho$$法/Millar-Rabin)]()
   - [素数判定]()
   - [素数列挙 (エラトステネスの篩)]()
-- [高速ゼータ変換/高速メビウス変換](./posts/zeta)
-- [高速フーリエ変換(FFT)](./posts/fft)
-- [数論変換(NTT)](./posts/ntt)
+- [高速ゼータ変換/高速メビウス変換](./snippets/zeta)
+- [高速フーリエ変換(FFT)](./snippets/fft)
+- [数論変換(NTT)](./snippets/ntt)
 - [任意mod畳み込み]()
 - 数論的関数
   - オイラーの$$\phi$$関数
@@ -90,13 +98,13 @@ superねこみみタイム
 
 ## 幾何
 
-- [幾何ライブラリ](./posts/geometry)
+- [幾何ライブラリ](./snippets/geometry)
 
 ## 文字列
 
 - [Z algorithm]()
-- [最長増加部分列](./posts/lis)
-- [ローリングハッシュ](./posts/rollinghash)
+- [最長増加部分列](./snippets/lis)
+- [ローリングハッシュ](./snippets/rollinghash)
 - Boyer-Moore
 - LL1 parser
 
@@ -130,12 +138,12 @@ superねこみみタイム
 
 - ディオファントス近似
 - 格子
-  - [LLL](./posts/lll)
+  - [LLL](./snippets/lll)
   - BKS
 - 多項式
-  - [Coppersmith Method](./posts/coppersmith)
-  - [グレブナー基底](./posts/grobner)
-  - [終結式](./posts/resultant)
+  - [Coppersmith Method](./snippets/coppersmith)
+  - [グレブナー基底](./snippets/grobner)
+  - [終結式](./snippets/resultant)
 - RSA暗号
   - Wiener's Attack
   - Boneh-Durfee Attack
@@ -164,7 +172,7 @@ superねこみみタイム
 
 ## テンプレート
 
-- [競プロ](./posts/template)
-- [ヒューリスティック](./posts/heuristic)
-- [pwn](./posts/pwn)
-- [angr](./posts/angr)
+- [競プロ](./snippets/template)
+- [ヒューリスティック](./snippets/heuristic)
+- [pwn](./snippets/pwn)
+- [angr](./snippets/angr)

@@ -1,6 +1,6 @@
 ---
 title: "Segment tree beats"
-permalink: /posts/segment-tree-beats
+permalink: /snippets/segment-tree-beats
 writer: anko9801
 layout: library
 ---
@@ -10,6 +10,7 @@ layout: library
 ## 計算量
 
 ## 実装
+
 
 ```cpp
 #include <algorithm>
