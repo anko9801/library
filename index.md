@@ -20,7 +20,9 @@ superねこみみタイム
 - UnionFind
   - [UnionFind](./snippets/unionfind)
   - [ポテンシャル付きUnionFind](./snippets/pot-unionfind)
-- [BIT (Binary-Indexed-Tree) / Fenwick Tree](./snippets/fenwicktree)
+- BIT (Binary-Indexed-Tree) / Fenwick Tree
+  - [BIT](./snippets/bit)
+  - [BIT RangeAdd](./snippets/bit-rangeadd)
 - Segment Tree
   - [セグメント木](./snippets/segtree)
   - [遅延セグメント木](./snippets/lazysegtree)
@@ -170,6 +172,10 @@ superねこみみタイム
   - Invalid Curve Attack
   - GHS Attack
   - Weil decsent
+- Hash
+  - Merkle-Damgård construction
+  - SHA (Secure Hash Algorithm)
+  - MD5
 
 ## テンプレート
 
