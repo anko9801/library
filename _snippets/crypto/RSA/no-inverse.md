@@ -21,4 +21,4 @@ $$O(e^n)$$
 
 ## 参考
 
-
+https://blog.y011d4.com/20201026-not-coprime-e-phi
