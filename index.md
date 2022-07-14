@@ -71,7 +71,6 @@ superねこみみタイム
   - [Modint](./snippets/modint)
   - [任意Modint](./snippets/arbitrary-modint)
   - [平方剰余 (Tonelli Shanks)]()
-  - 離散対数問題
 - 組合せ
   - [階乗](./snippets/factorial)
   - [二項係数](./snippets/binomial-coefficient)
@@ -147,6 +146,12 @@ superねこみみタイム
   - [Coppersmith Method](./snippets/coppersmith)
   - [グレブナー基底](./snippets/grobner)
   - [終結式](./snippets/resultant)
+- DLP (離散対数問題)
+  - [Baby-step Giant-step](./snippets/bsgs)
+  - [Pollard's rho 法](./snippets/pollards-rho)
+  - [指数計算法 (Index Calculus Algorithm)](./snippets/index-calculus)
+  - [数体ふるい法](./snippets/number-field-sieve)
+  - [Pohlig–Hellman](./snippets/pohlig-hellman)
 - [RSA暗号](./snippets/rsa)
   - [Wiener's Attack](./snippets/wieners-attack)
   - [Boneh-Durfee Attack](./snippets/boneh-durfee)
@@ -160,12 +165,11 @@ superねこみみタイム
   - [Partial Key Exposure Attack](./snippets/partial-key)
   - [逆元が存在しないとき](./snippets/no-inverse)
 - 楕円曲線
-  - ECDLP
   - Millarのアルゴリズム
   - Tate pairing / Weil pairing
   - ECFFT
 - 楕円曲線暗号
-  - Polig-Hellman Attack
+  - Pohlig-Hellman Attack
   - MOV Reduction
   - FR Reduction
   - SSSA Attack
