@@ -15,5 +15,5 @@ template <typename T> class BIT {
     return res;
   }
   T sum(int l, int r) { return sum(r - 1) - sum(l - 1); }
-  T all_sum() { return prod(N); }
+  T all_sum() { return sum(N); }
 };

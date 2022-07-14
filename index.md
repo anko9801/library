@@ -87,7 +87,7 @@ superねこみみタイム
   - 固有値・固有ベクトル
 - 素数
   - [素因数分解 (線形篩)](./snippets/sieve)
-  - [高速素因数分解 (Pollard-$$\rho$$法/Millar-Rabin)]()
+  - [高速素因数分解 (Pollard-$$\rho$$法/Millar-Rabin)](./snippets/factorize)
   - [素数判定]()
   - [素数列挙 (エラトステネスの篩)]()
 - [高速ゼータ変換/高速メビウス変換](./snippets/zeta)
@@ -147,7 +147,7 @@ superねこみみタイム
   - [Coppersmith Method](./snippets/coppersmith)
   - [グレブナー基底](./snippets/grobner)
   - [終結式](./snippets/resultant)
-- RSA暗号
+- [RSA暗号](./snippets/rsa)
   - [Wiener's Attack](./snippets/wieners-attack)
   - [Boneh-Durfee Attack](./snippets/boneh-durfee)
   - [Common Modulus Attack](./snippets/common-modulus)
