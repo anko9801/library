@@ -188,6 +188,11 @@ superねこみみタイム
   - SHA (Secure Hash Algorithm)
   - MD5
 
+## Web
+
+私が知る限りこれを超えるものはないと思います
+[CTFにおけるWebセキュリティ入門とまとめ](https://blog.hamayanhamayan.com/entry/2021/12/01/194114)
+
 ## テンプレート
 
 - [競プロ](./snippets/template)
