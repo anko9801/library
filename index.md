@@ -74,11 +74,8 @@ superねこみみタイム
 - 組合せ
   - 階乗
   - 二項係数
-- 形式的冪級数
-- Half GCD
 - 進数変換
-- Euclid の互除法
-- [最大公約数/最小公倍数](./snippets/gcd)
+- [gcd / lcm / 拡張 Euclid の互除法](./snippets/gcd)
 - 中国剰余定理
 - 行列演算
   - 行列
@@ -89,7 +86,9 @@ superねこみみタイム
   - [高速素因数分解 (Pollard-$\rho$法/Millar-Rabin)](./snippets/factorize)
   - 素数判定
   - 素数列挙 (エラトステネスの篩)
-- 高速ゼータ変換/高速メビウス変換
+- 多項式
+  - Half GCD
+- 形式的冪級数
 - 高速フーリエ変換(FFT)
 - 数論変換(NTT)
 - 任意mod畳み込み
