@@ -8,6 +8,11 @@ code {
   background-color: #fafafa;
 }
 
+.highlight {
+  font-family: source-code-pro;
+  background-color: #fafafa;
+}
+
 /* h2 {
   padding: 0.3em 0.3em 0.3em 0.5em;
   border-top: 1px;
