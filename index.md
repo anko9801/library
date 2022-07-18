@@ -76,7 +76,7 @@ superねこみみタイム
   - 二項係数
 - 進数変換
 - [gcd / lcm / 拡張 Euclid の互除法](./snippets/gcd)
-- 中国剰余定理
+- [中国剰余定理](./snippets/crt)
 - 行列演算
   - 行列
   - LU分解
