@@ -82,7 +82,7 @@ superねこみみタイム
   - LU分解
   - 固有値・固有ベクトル
 - 素数
-  - 素因数分解 (線形篩)
+  - [素因数分解](./snippets/factorize)
   - [高速素因数分解 (Pollard-$\rho$法/Millar-Rabin)](./snippets/factorize)
   - 素数判定
   - 素数列挙 (エラトステネスの篩)
