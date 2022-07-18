@@ -11,6 +11,6 @@ layout: library
 
 ## 実装
 
-{% include cpp.html code="data_structure/lazysegtree.cpp" %}
+{% include cpp.html code="data_structure/lazysegtree.hpp" %}
 
 ## 使用例
