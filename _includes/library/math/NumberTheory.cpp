@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <gcd.hpp>
 using namespace std;
 
 using ll = long long;
@@ -9,23 +10,6 @@ using u64 = uint_fast64_t;
 
 const ll MOD = 1e9 + 7;
 const ll MODD = 998244353;
-
-ll gcd(ll a, ll b) {
-  if (b)
-    return gcd(b, a % b);
-  return a;
-}
-ll lcm(ll a, ll b) { return a * b / gcd(a, b); }
-ll extgcd(ll a, ll b, ll &x, ll &y) {
-  ll g = a;
-  x = 1;
-  y = 0;
-  if (b) {
-    g = extgcd(b, a % b, y, x);
-    y -= a / b * x;
-  }
-  return g;
-}
 
 ll invmod(ll a, ll mod) {
   ll x, y;
@@ -123,7 +107,8 @@ public:
 
   // 高速ゼータ変換 O(NloglogN)
   // F(n)=∑[n|i]f(i)
-  template <class T> void fast_zeta(vector<T> &f) {
+  template <class T>
+  void fast_zeta(vector<T> &f) {
     ll N = f.size();
     for (ll p = 2; p < N; ++p) {
       if (!isprime[p])
@@ -136,7 +121,8 @@ public:
 
   // 高速メビウス変換 O(NloglogN)
   // f(n)=∑[n|i]μ(i/n)F(i)
-  template <class T> void fast_mobius(vector<T> &F) {
+  template <class T>
+  void fast_mobius(vector<T> &F) {
     ll N = F.size();
     for (ll p = 2; p < N; ++p) {
       if (!isprime[p])
@@ -234,28 +220,36 @@ public:
     return ans;
   }
   inline constexpr Modint operator-() noexcept { return Modint(0) -= *this; }
-  template <class T> inline constexpr Modint &operator+=(T x) noexcept {
+  template <class T>
+  inline constexpr Modint &operator+=(T x) noexcept {
     return operator+=(Modint(x));
   }
-  template <class T> inline constexpr Modint &operator+(T x) noexcept {
+  template <class T>
+  inline constexpr Modint &operator+(T x) noexcept {
     return Modint(*this) += x;
   }
-  template <class T> inline constexpr Modint &operator-=(T x) noexcept {
+  template <class T>
+  inline constexpr Modint &operator-=(T x) noexcept {
     return operator-=(Modint(x));
   }
-  template <class T> inline constexpr Modint &operator-(T x) noexcept {
+  template <class T>
+  inline constexpr Modint &operator-(T x) noexcept {
     return Modint(*this) -= x;
   }
-  template <class T> inline constexpr Modint &operator*=(T x) noexcept {
+  template <class T>
+  inline constexpr Modint &operator*=(T x) noexcept {
     return operator*=(Modint(x));
   }
-  template <class T> inline constexpr Modint &operator*(T x) noexcept {
+  template <class T>
+  inline constexpr Modint &operator*(T x) noexcept {
     return Modint(*this) *= x;
   }
-  template <class T> inline constexpr Modint &operator/=(T x) noexcept {
+  template <class T>
+  inline constexpr Modint &operator/=(T x) noexcept {
     return operator/=(Modint(x));
   }
-  template <class T> inline constexpr Modint &operator/(T x) noexcept {
+  template <class T>
+  inline constexpr Modint &operator/(T x) noexcept {
     return Modint(*this) /= x;
   }
   inline constexpr Modint inv() const noexcept {
@@ -283,7 +277,8 @@ public:
     }
     return ans;
   }
-  template <class T> constexpr Modint(T x) noexcept {
+  template <class T>
+  constexpr Modint(T x) noexcept {
     using U = typename conditional<sizeof(T) >= 4, T, int>::type;
     U y = x;
     y %= U(Modulus);
