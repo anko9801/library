@@ -7,7 +7,7 @@ layout: library
 
 ## 説明
 
-半分全列挙を用いて $O(\sqrt{N}\log{N})$ でDLPを解ける。
+半分全列挙を用いて $O(\sqrt{N}\log{N})$ でDLPが解ける。
 
 位数 $N$ の巡回群 $G$ について命題 $\forall a, b\in G$, $\exists n\in \mathbb{N}$, $a^n = b$ を考える。このとき $m = \lceil\sqrt{N}\rceil$ とおき、$n$ を $m$ で割ると $n = qm + r$ と表せられる。すると $r$ に対して $ba^{-r}$ を全列挙し、そのリストに対して $a^{qm}$ が含まれているような $q$ を探索すると高速に解が求まる。
 
