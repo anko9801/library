@@ -9,8 +9,8 @@ layout: library
 
 ## 計算量
 
-- add $$O(\log N)$$
-- sum $$O(\log N)$$
+- add $O(\log N)$
+- sum $O(\log N)$
 
 ## 実装
 

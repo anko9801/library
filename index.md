@@ -86,7 +86,7 @@ superねこみみタイム
   - 固有値・固有ベクトル
 - 素数
   - 素因数分解 (線形篩)
-  - [高速素因数分解 (Pollard-$$\rho$$法/Millar-Rabin)](./snippets/factorize)
+  - [高速素因数分解 (Pollard-$\rho$法/Millar-Rabin)](./snippets/factorize)
   - 素数判定
   - 素数列挙 (エラトステネスの篩)
 - 高速ゼータ変換/高速メビウス変換
@@ -94,9 +94,9 @@ superねこみみタイム
 - 数論変換(NTT)
 - 任意mod畳み込み
 - 数論的関数
-  - オイラーの$$\phi$$関数
-  - メビウスの$$\mu$$関数
-  - カーマイケルの$$\lambda$$関数
+  - オイラーの$\phi$関数
+  - メビウスの$\mu$関数
+  - カーマイケルの$\lambda$関数
 
 ## 幾何
 

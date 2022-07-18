@@ -7,8 +7,8 @@ layout: library
 
 ## 説明
 
-$$f(m_1) = m_2$$
-$$m_1 = pad_1 + m, m_2 = pad_2 + m, m_2 = m_1 + (pad_2 - pad_1)$$
+$f(m_1) = m_2$
+$m_1 = pad_1 + m, m_2 = pad_2 + m, m_2 = m_1 + (pad_2 - pad_1)$
 
 $$
 \begin{aligned}

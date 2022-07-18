@@ -7,7 +7,9 @@ layout: library
 
 ## 説明
 
-半分全列挙
+半分全列挙を用いて $O(\sqrt{N})$ でDLPを解ける。
+
+巡回群 $G$ について
 有限体 $\mathbb{F}_p$ について $m = \lceil \sqrt{p-1} \rceil$ とおき、$x$ を $m$ で割った商と余りを $q, r$ として次の集合 $B, G$ について考える。
 $x = qm + r$
 

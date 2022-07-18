@@ -7,7 +7,7 @@ layout: library
 
 ## 説明
 
-$$e$$ が大きすぎると Coppersmith Method を用いて攻撃できる。
+$e$ が大きすぎると以下の式に対し Coppersmith Method を用いて攻撃できる。
 
 $$
 \begin{aligned}
