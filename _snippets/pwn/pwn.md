@@ -7,11 +7,7 @@ layout: library
 
 ## 説明
 
-CTF pwnで使うテンプレート
-
-## 計算量
-
-なし
+CTFのpwn分野で使うテンプレート。pwntoolsパッケージを使用する。
 
 ## 実装
 
