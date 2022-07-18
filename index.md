@@ -37,11 +37,11 @@ superねこみみタイム
 ## グラフ
 
 - 最短路
-  - 単一始点最短路 (Dijkstra)
-  - 単一始点最短路 (Bellman-Ford)
+  - 単一始点最短路 $O(E\log V)$ (Dijkstra)
+  - 単一始点最短路 $O(EV)$ (Bellman-Ford)
   - k-最短路
-  - 全点対間最短路 (Floyd Warshall)
-  - 全点対間最短路 (Johnson)
+  - 全点対間最短路 $O(V^3)$ (Floyd Warshall)
+  - 全点対間最短路 $O((V + E)V\log V)$ (Johnson)
 - 全域木
   - 最小全域森 (Kruskal)
 - フロー
@@ -105,10 +105,18 @@ superねこみみタイム
 ## 文字列
 
 - Z algorithm
+- Rabin-Karp 法
 - 最長増加部分列
 - ローリングハッシュ
 - Boyer-Moore
-- LL1 parser
+- LL(1) parser
+
+## ヒューリスティック
+
+- 山登り法
+- 焼きなまし
+- ビームサーチ
+- chokudai サーチ
 
 ## Pwn
 
@@ -151,6 +159,8 @@ superねこみみタイム
   - [指数計算法 (Index Calculus Algorithm)](./snippets/index-calculus)
   - [数体ふるい法](./snippets/number-field-sieve)
   - [Pohlig–Hellman](./snippets/pohlig-hellman)
+- 数学
+  - 二平方和
 - RSA暗号
   - 構成
     - [RSA](./snippets/rsa)
@@ -191,6 +201,7 @@ superねこみみタイム
 ## Web
 
 私が知る限りこれを超えるものはないと思います
+
 [CTFにおけるWebセキュリティ入門とまとめ](https://blog.hamayanhamayan.com/entry/2021/12/01/194114)
 
 ## テンプレート
@@ -199,3 +210,4 @@ superねこみみタイム
 - [ヒューリスティック](./snippets/heuristic)
 - [pwn](./snippets/pwn)
 - [angr](./snippets/angr)
+- [SageMathチートシート](./snippets/sagemath)
