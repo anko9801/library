@@ -40,7 +40,6 @@ def WienersAttack(n, e):
         if k == 0 or (e * d - 1) % k != 0:
             continue
         phi = (e * d - 1) // k
-        s = n - phi + 1
-        if has_integer_roots(1, -s, n) > 0:
+        if has_integer_roots(1, phi - n - 1, n) > 0:
             return d
     return -1
