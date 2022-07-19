@@ -1,7 +1,6 @@
 #include <queue>
 #include <vector>
 
-// O(V^2E)
 struct Dinic {
   struct edge {
     long long to, cap, rev;
