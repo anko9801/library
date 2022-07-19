@@ -9,6 +9,8 @@ layout: library
 
 ## 計算量
 
+$O(EV^2)$
+
 ## 実装
 
 {% include cpp.html code="graph/flow/dinic.hpp" %}

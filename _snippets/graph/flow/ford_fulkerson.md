@@ -9,6 +9,8 @@ layout: library
 
 ## 計算量
 
+$O(FE)$
+
 ## 実装
 
 {% include cpp.html code="graph/flow/ford_fulkerson.cpp" %}
