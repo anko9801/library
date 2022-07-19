@@ -15,7 +15,7 @@ $O(E\log{V})$
 
 ## 実装
 
-{% include cpp.html code="graph/dijkstra.hpp" %}
+{% include cpp.html code="graph/shortest_path/dijkstra.hpp" %}
 
 ## 使用例
 

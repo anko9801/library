@@ -15,7 +15,7 @@ $O(V^3)$
 
 ## 実装
 
-{% include cpp.html code="graph/floyd_warshall.hpp" %}
+{% include cpp.html code="graph/shortest_path/floyd_warshall.hpp" %}
 
 ## 使用例
 

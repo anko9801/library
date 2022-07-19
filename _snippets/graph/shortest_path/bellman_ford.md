@@ -16,7 +16,7 @@ $O(EV)$
 
 ## 実装
 
-{% include cpp.html code="graph/bellman_ford.hpp" %}
+{% include cpp.html code="graph/shortest_path/bellman_ford.hpp" %}
 
 ## 使用例
 
