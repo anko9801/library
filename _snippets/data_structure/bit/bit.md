@@ -14,10 +14,8 @@ layout: library
 
 ## 実装
 
-{% include cpp.html code="data_structure/bit/bit.cpp" %}
+{% include cpp.html code="data_structure/bit/bit.hpp" %}
 
 ## 使用例
 
-転倒数
-
-swap distance
+{% include cpp.html code="data_structure/bit/bit_ex.hpp" %}
