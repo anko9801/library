@@ -29,6 +29,7 @@ superねこみみタイム
   - Treap
 - Wavelet Matrix
 - 座標圧縮
+- [slope trick](./snippets/slope-trick)
 
 ## グラフ
 
