@@ -1,5 +1,5 @@
 ---
-title: "Ford Fulkerson"
+title: "最大流 (Ford Fulkerson)"
 permalink: /snippets/ford-fulkerson
 writer: anko9801
 layout: library
