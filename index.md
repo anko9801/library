@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 writer: anko9801
 layout: library
 ---
@@ -33,6 +30,7 @@ superねこみみタイム
   - Splay木
   - Treap
 - Wavelet Matrix
+- 座標圧縮
 
 ## グラフ
 
@@ -45,7 +43,7 @@ superねこみみタイム
 - 全域木
   - 最小全域森 (Kruskal)
 - フロー
-  - 最大流 (Dinic)
+  - [最大流 (Dinic)](./snippets/dinic)
   - [最大流 (Ford Fulkerson)](./snippets/ford-fulkerson)
 - マッチング
   - 二部グラフ判定
@@ -56,14 +54,10 @@ superねこみみタイム
 - 最大クリーク
 - 強連結成分分解
 
-<!-- ## アルゴリズム -->
-
-<!-- - [二次元配列の回転](./snippets/vector2d-rotate)
+<!--
 - [ランレングス圧縮](./snippets/run-length-encode)
-- [偏角ソート](./snippets/arg-sort)
 - [反復写像](./snippets/iterated-function)
-- [スライド最小値](./snippets/slideminimum)
-- [座標圧縮](./snippets/compress) -->
+-->
 
 ## 数学
 
@@ -74,6 +68,8 @@ superねこみみタイム
 - 進数変換
 - [gcd / lcm / 拡張 Euclid の互除法](./snippets/gcd)
 - [中国剰余定理](./snippets/crt)
+- スライド最小値
+- floor sum
 - 行列演算
   - [行列](./snippets/matrix)
   - LU分解
@@ -98,6 +94,7 @@ superねこみみタイム
 ## 幾何
 
 - [幾何ライブラリ](./snippets/geometry)
+- 偏角ソート
 
 ## 文字列
 
