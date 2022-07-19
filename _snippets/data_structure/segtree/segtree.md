@@ -11,6 +11,6 @@ layout: library
 
 ## 実装
 
-{% include cpp.html code="data_structure/segtree.cpp" %}
+{% include cpp.html code="data_structure/segtree/segtree.cpp" %}
 
 ## 使用例
