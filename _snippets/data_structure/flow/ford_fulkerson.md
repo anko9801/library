@@ -11,6 +11,6 @@ layout: library
 
 ## 実装
 
-{% include cpp.html code="data_structure/ford_fulkerson.cpp" %}
+{% include cpp.html code="graph/flow/ford_fulkerson.cpp" %}
 
 ## 使用例
