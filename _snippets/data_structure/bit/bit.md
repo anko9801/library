@@ -18,4 +18,4 @@ layout: library
 
 ## 使用例
 
-{% include cpp.html code="data_structure/bit/bit_ex.hpp" %}
+{% include cpp.html code="data_structure/bit/bit_ex.cpp" %}
