@@ -71,9 +71,6 @@ superねこみみタイム
   - [Modint](./snippets/modint)
   - [任意Modint](./snippets/arbitrary-modint)
   - sqrt (Tonelli Shanks)
-- 組合せ
-  - 階乗
-  - 二項係数
 - 進数変換
 - [gcd / lcm / 拡張 Euclid の互除法](./snippets/gcd)
 - [中国剰余定理](./snippets/crt)
@@ -87,7 +84,7 @@ superねこみみタイム
   - 素数判定
   - [素数列挙 (エラトステネスの篩)](./snippets/primes)
 - 多項式
-  - Half GCD
+  - 多項式GCD
 - 形式的冪級数
 - [高速ゼータ変換/高速メビウス変換](./snippets/zeta)
 - 高速フーリエ変換(FFT)
