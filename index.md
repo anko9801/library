@@ -38,7 +38,7 @@ superねこみみタイム
 
 - 最短路
   - 単一始点最短路 $O(E\log V)$ (Dijkstra)
-  - 単一始点最短路 $O(EV)$ (Bellman-Ford)
+  - [単一始点最短路 $O(EV)$ (Bellman-Ford)](./snippets/bellman-ford)
   - k-最短路
   - 全点対間最短路 $O(V^3)$ (Floyd Warshall)
   - 全点対間最短路 $O((V + E)V\log V)$ (Johnson)
