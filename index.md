@@ -17,9 +17,7 @@ superねこみみタイム
 - UnionFind
   - UnionFind
   - ポテンシャル付きUnionFind
-- BIT (Binary-Indexed-Tree) / Fenwick Tree
-  - [BIT](./snippets/bit)
-  - BIT RangeAdd
+- [BIT (Binary-Indexed-Tree) / Fenwick Tree](./snippets/bit)
 - Segment Tree
   - [セグメント木](./snippets/segtree)
   - [遅延セグメント木](./snippets/lazysegtree)
@@ -197,6 +195,10 @@ superねこみみタイム
 私が知る限りこれを超えるものはないと思います
 
 [CTFにおけるWebセキュリティ入門とまとめ](https://blog.hamayanhamayan.com/entry/2021/12/01/194114)
+
+## その他
+
+- 超解像
 
 ## テンプレート
 
