@@ -87,7 +87,7 @@ superねこみみタイム
 - 形式的冪級数
 - [高速ゼータ変換/高速メビウス変換](./snippets/zeta)
 - [高速フーリエ変換(FFT)](./snippets/fft)
-- 数論変換(NTT)
+- [数論変換(NTT)](./snippets/ntt)
 - 任意mod畳み込み
 - 数論的関数
   - オイラーの$\phi$関数
