@@ -5,6 +5,8 @@ layout: library
 
 superねこみみタイム
 
+これらはCC0ライセンスです。
+
 <!-- {% assign mydocs = site.snippets | group_by: 'category' %}
 {% for cat in mydocs %}
 
@@ -154,7 +156,7 @@ superねこみみタイム
   - [指数計算法 (Index Calculus Algorithm)](./snippets/index-calculus)
   - [数体ふるい法](./snippets/number-field-sieve)
   - [Pohlig–Hellman](./snippets/pohlig-hellman)
-- 数学
+- 数論
   - 二平方和
 - RSA暗号
   - 構成
@@ -202,6 +204,7 @@ superねこみみタイム
 ## その他
 
 - 超解像
+- Car Hacking
 
 ## テンプレート
 
