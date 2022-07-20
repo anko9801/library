@@ -11,6 +11,6 @@ layout: library
 
 ## 実装
 
-{% include cpp.html code="math/modint.hpp" %}
+{% include cpp.html code="math/modulo/modint.hpp" %}
 
 ## 使用例

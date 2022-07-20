@@ -13,7 +13,7 @@ layout: library
 
 ## 実装
 
-{% include cpp.html code="math/matrix.hpp" %}
+{% include cpp.html code="math/matrix/matrix.hpp" %}
 
 ## 使用例
 
