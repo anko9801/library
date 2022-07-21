@@ -2,11 +2,14 @@
 #include <queue>
 #include <vector>
 
+template <typename T>
+using pq = std::priority_queue<T, std::vector<T>, std::greater<T>>;
+
 struct SlopeTrick {
   const long long LINF = 0x1fffffffffffffff;
   long long minf = -1;
   std::priority_queue<long long> L;
-  std::priority_queue<long long, std::vector<long long>, std::greater<long long>> R;
+  pq<long long> R;
 
   long long shift_left = -1;
   long long shift_right = -1;

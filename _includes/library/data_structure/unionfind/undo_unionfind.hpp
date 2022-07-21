@@ -1,4 +1,6 @@
+#include <vector>
+
 struct UnionFindUndo {
-	vector<ll> data;
-	stack<pll> history;
+  std::vector<long long> data;
+  std::stack<std::pair<long long>> history;
 };

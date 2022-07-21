@@ -5,4 +5,5 @@ AllowShortCaseLabelsOnASingleLine: true
 AllowShortFunctionsOnASingleLine: true
 AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: true
-ColumnLimit: 70
+# ColumnLimit: 70
+IndentWidth: 2
