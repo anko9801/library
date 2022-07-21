@@ -55,7 +55,7 @@ superねこみみタイム
   - [木の直径](./snippets/tree-diameter)
   - 最小共通祖先
 - 最大クリーク
-- 強連結成分分解
+- [強連結成分分解](./snippets/scc)
 
 <!--
 - [ランレングス圧縮](./snippets/run-length-encode)
