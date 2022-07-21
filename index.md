@@ -144,8 +144,12 @@ superねこみみタイム
 
 - ディオファントス近似
 - 格子
-  - LLL
-  - BKS
+  - SVP
+    - LLL基底簡約
+    - BKZ基底簡約
+    - Kannan’s embedding method
+  - CVP
+    - Babai’s Algorithm
 - 多項式
   - [Coppersmith Method](./snippets/coppersmith)
   - グレブナー基底
