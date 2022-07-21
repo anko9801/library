@@ -4,12 +4,12 @@
 
 pre,
 code {
-  font-family: source-code-pro;
+  font-family: "Source Code Pro";
   background-color: #fafafa;
 }
 
 .highlight {
-  font-family: source-code-pro;
+  font-family: "Source Code Pro";
   background-color: #fafafa;
 }
 
@@ -23,6 +23,12 @@ code {
   border-style: solid;
   margin-top: 1em;
 } */
+
+h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid #eaecef;
+}
 
 .div-sample-copy {
   position: relative;
