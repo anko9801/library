@@ -7,8 +7,11 @@ layout: library
 
 ## 説明
 
+集合を管理する。
+
 ## 計算量
 
+$O(\alpha(N))$
 
 ## 実装
 
