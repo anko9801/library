@@ -88,14 +88,10 @@ static const int ONLINE_FRONT = -2;
 static const int ON_SEGMENT = 0;
 int ccw(Point p0, Point p1, Point p2) {
   Point a = p1 - p0, b = p2 - p0;
-  if (cross(a, b) > EPS)
-    return COUNTER_CLOCKWISE;
-  if (cross(a, b) < -EPS)
-    return CLOCKWISE;
-  if (dot(a, b) < -EPS)
-    return ONLINE_BACK;
-  if (norm(a) < norm(b))
-    return ONLINE_FRONT;
+  if (cross(a, b) > EPS) return COUNTER_CLOCKWISE;
+  if (cross(a, b) < -EPS) return CLOCKWISE;
+  if (dot(a, b) < -EPS) return ONLINE_BACK;
+  if (norm(a) < norm(b)) return ONLINE_FRONT;
   return ON_SEGMENT;
 }
 
@@ -134,17 +130,13 @@ bool isIntersect(const Segment &s, const Segment &t) {
 int isIntersect(const Circle &c1, const Circle &c2) {
   Real d = norm(c1.p - c2.p);
   // 2つの円が離れている場合
-  if (d > norm(c1.r + c2.r) + EPS)
-    return 4;
+  if (d > norm(c1.r + c2.r) + EPS) return 4;
   // 外接している場合
-  if (equal(d, norm(c1.r + c2.r)))
-    return 3;
+  if (equal(d, norm(c1.r + c2.r))) return 3;
   // 内接している場合
-  if (equal(d, norm(c1.r - c2.r)))
-    return 1;
+  if (equal(d, norm(c1.r - c2.r))) return 1;
   // 内包している場合
-  if (d < norm(c1.r - c2.r) - EPS)
-    return 0;
+  if (d < norm(c1.r - c2.r) - EPS) return 0;
   // 交差している場合
   return 2;
 }
