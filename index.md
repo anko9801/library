@@ -198,6 +198,9 @@ superねこみみタイム
   - Merkle-Damgård construction
   - SHA (Secure Hash Algorithm)
   - MD5
+- 疑似乱数生成器 (PRNG)
+  - Xorshift
+  - Mersenne twister
 
 ## Web
 
