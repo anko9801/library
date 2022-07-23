@@ -127,7 +127,6 @@ superねこみみタイム
 - GOT overwrite
 - Heap Exploit
   - tcache poisoning
-  - Heap Spray
   - House of XXX
     - House of Orange
     - House of Spirit
@@ -137,6 +136,17 @@ superねこみみタイム
   - overlapping chunks
   - mmap overlapping chunks
 - Kernel Exploit
+  - Heap Spray
+  - Dirty Pipe
+- TEE
+  - RISC-V Keystone
+    - BOOM
+    - Speculative Attack
+  - Intel SGX
+    - Remote Attestation
+    - ForeShadow
+  - ARM TrustZone
+    - Boomerang
 
 ## Crypto
 
@@ -213,6 +223,7 @@ superねこみみタイム
 - 超解像
 - Car Hacking
 - Shell Oracle Attack
+-
 
 ## テンプレート
 
