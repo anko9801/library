@@ -164,7 +164,7 @@ superねこみみタイム
   - [Coppersmith Method](./snippets/coppersmith)
   - グレブナー基底
   - 終結式
-- DLP (離散対数問題)
+- [離散対数問題 (DLP)](./snippets/dlp)
   - [Baby-step Giant-step](./snippets/bsgs)
   - [Pollard's rho 法](./snippets/pollards-rho)
   - [指数計算法 (Index Calculus Algorithm)](./snippets/index-calculus)
