@@ -155,8 +155,9 @@ superねこみみタイム
 - ディオファントス近似
 - 格子
   - SVP
-    - LLL基底簡約
-    - BKZ基底簡約
+    - [Lagrange 基底簡約 (Gauss 基底簡約)](./snippets/lagrange)
+    - LLL 基底簡約
+    - BKZ 基底簡約
     - Kannan’s embedding method
   - CVP
     - Babai’s Algorithm
