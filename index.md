@@ -203,7 +203,7 @@ superねこみみタイム
     - ECDH
     - SIDH
   - 攻撃
-    - Pohlig-Hellman Attack
+    - [Pohlig-Hellman Attack](./snippets/pohlig-hellman-ec)
     - MOV Reduction
     - FR Reduction
     - SSSA Attack
