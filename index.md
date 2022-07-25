@@ -110,7 +110,7 @@ superねこみみタイム
 
 ## ヒューリスティック
 
-- 山登り法
+- [山登り法](./snippets/hill-climbing)
 - 焼きなまし
 - ビームサーチ
 - chokudai サーチ
