@@ -111,7 +111,7 @@ superねこみみタイム
 ## ヒューリスティック
 
 - [山登り法](./snippets/hill-climbing)
-- 焼きなまし
+- [焼きなまし](./snippets/simulated-annealing)
 - ビームサーチ
 - chokudai サーチ
 - Deep Learning
