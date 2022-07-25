@@ -152,7 +152,9 @@ superねこみみタイム
 
 使用言語はPythonまたはSageMathです。
 
-- ディオファントス近似
+- 暗号構成基盤
+  - Diffie Hellman
+  - [Schnorr Signatures](./snippets/schnorr)
 - 格子
   - SVP
     - [Lagrange 基底簡約 (Gauss 基底簡約)](./snippets/lagrange)
