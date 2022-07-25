@@ -114,6 +114,7 @@ superねこみみタイム
 - 焼きなまし
 - ビームサーチ
 - chokudai サーチ
+- Deep Learning
 
 ## Pwn
 
@@ -126,6 +127,7 @@ superねこみみタイム
   - Return Oriented Programming
 - GOT overwrite
 - Heap Exploit
+  - glibc malloc
   - tcache poisoning
   - House of XXX
     - House of Orange
@@ -156,6 +158,7 @@ superねこみみタイム
   - Diffie Hellman
   - [Schnorr Signatures](./snippets/schnorr)
 - 格子
+  - Gram-Schmidt
   - SVP
     - [Lagrange 基底簡約 (Gauss 基底簡約)](./snippets/lagrange)
     - LLL 基底簡約
@@ -226,7 +229,6 @@ superねこみみタイム
 - 超解像
 - Car Hacking
 - Shell Oracle Attack
--
 
 ## テンプレート
 
