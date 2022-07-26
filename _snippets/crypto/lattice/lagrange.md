@@ -24,7 +24,7 @@ $O(\log{N})$
 
 ## 実装
 
-{% include python.html code="crypto/lagrange.sage" %}
+{% include python.html code="crypto/Lattice/lagrange.sage" %}
 
 ## 使用例
 
