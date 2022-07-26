@@ -20,6 +20,7 @@ $$
 
 ## 実装
 
+{% include python.html code="crypto/Lattice/size_reduction.sage" %}
 
 ## 使用例
 
