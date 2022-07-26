@@ -152,10 +152,10 @@ superねこみみタイム
 
 ## Crypto
 
-使用言語はPythonまたはSageMathです。
+使用言語はPythonまたはSageMathです。それぞれの暗号自体を取り扱うのではなく、Cryptoの背景にある理論を取り扱っていきます。
 
 - 暗号構成基盤
-  - Diffie Hellman
+  - [Diffie-Hellman 鍵交換](./snippets/diffie-hellman)
   - [Schnorr Signatures](./snippets/schnorr)
 - 格子
   - Gram-Schmidt
