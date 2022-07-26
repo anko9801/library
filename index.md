@@ -18,7 +18,6 @@ superねこみみタイム
 
 - UnionFind
   - [UnionFind](./snippets/unionfind)
-  - [重み付きUnionFind](./snippets/weighted-unionfind)
   - [ポテンシャル付きUnionFind](./snippets/potential-unionfind)
   - [永続UnionFind](./snippets/persist-unionfind)
 - [BIT (Binary-Indexed-Tree) / Fenwick Tree](./snippets/bit)
