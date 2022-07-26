@@ -174,8 +174,8 @@ superねこみみタイム
 - [離散対数問題 (DLP)](./snippets/dlp)
   - [Baby-step Giant-step](./snippets/bsgs)
   - [Pollard's rho 法](./snippets/pollards-rho)
-  - [指数計算法 (Index Calculus Algorithm)](./snippets/index-calculus)
-  - [数体ふるい法](./snippets/number-field-sieve)
+  - 指数計算法 (Index Calculus Algorithm)
+  - 数体ふるい法
   - [Pohlig–Hellman](./snippets/pohlig-hellman)
 - 数論
   - 二平方和
