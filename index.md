@@ -220,6 +220,20 @@ superねこみみタイム
     - GHS Attack
     - Weil decsent
 - ブロック暗号
+  - AES
+    - 構成
+      - AES-ECB (Electronic Codeblock)
+      - AES-CBC (Cipher Block Chaining)
+      - PCBC (Propagating Cipher Block Chaining)
+      - CFB (Cipher Feedback)
+      - AES-GCM (Galois/Counter Mode)
+    - 攻撃
+      - Padding Oracle Attack (2002年)
+      - BEAST 攻撃 (2011年)
+      - Lucky Thirteen 攻撃 (2013年)
+      - POODLE 攻撃
+      - ghash
+      - Integral Cryptanalysis
 - Hash
   - Merkle-Damgård construction
   - SHA (Secure Hash Algorithm)
