@@ -164,6 +164,8 @@ superねこみみタイム
     - [LLL 基底簡約](./snippets/lll)
     - BKZ 基底簡約
     - Kannan’s embedding method
+  - LO法
+  - CLOS法
   - CVP
     - Babai’s Algorithm
 - 多項式
