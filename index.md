@@ -158,20 +158,36 @@ superねこみみタイム
   - [Schnorr Signatures](./snippets/schnorr)
 - 格子
   - Gram-Schmidt
-  - SVP
+  - SVP (Shortest Vector Problem)
     - [Lagrange 基底簡約 (Gauss 基底簡約)](./snippets/lagrange)
     - [サイズ基底簡約](./snippets/size-reduction)
     - [LLL 基底簡約](./snippets/lll)
     - BKZ 基底簡約
     - Kannan’s embedding method
-  - LO法
-  - CLOS法
-  - CVP
+  - CVP (Closest Vector Problem)
     - Babai’s Algorithm
+  - Merkle-Hellmanナップサック暗号
+    - LO法
+    - CLOS法
+  - LWE (Learning with Errors) 暗号
+    - LWE
+      - BDD (Bounded Distance Decoding) 攻撃
+      - SIS (Short Integer Solution) 攻撃
+      - BKW 攻撃
+      - Arora-Ge 攻撃
+    - Ring-LWE
+    - Module-LWE
+      - CRYSTALS
+    - LWR
+  - TFHE (Torus Fully Homomorphic Encryption)
 - 多項式
   - [Coppersmith Method](./snippets/coppersmith)
   - グレブナー基底
   - 終結式
+  - MQ 問題
+  - Matsumoto-Imai 暗号 / HFE 暗号
+  - NTRU 暗号
+  - Rainbow 署名 (UOV 署名 / QR-UOV 署名)
 - [離散対数問題 (DLP)](./snippets/dlp)
   - [Baby-step Giant-step](./snippets/bsgs)
   - [Pollard's rho 法](./snippets/pollards-rho)
@@ -204,6 +220,7 @@ superねこみみタイム
   - 構成
     - ECDH
     - SIDH
+    - SIKE
   - 攻撃
     - [Pohlig-Hellman Attack](./snippets/pohlig-hellman-ec)
     - MOV Reduction
@@ -231,6 +248,8 @@ Webに関してはよわよわなので読み込みたい資料リストを並�
 - 超解像
 - Car Hacking
 - Shell Oracle Attack
+- Z3
+  - シンボリック実行エンジン
 
 ## テンプレート
 
