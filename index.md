@@ -44,6 +44,7 @@ superねこみみタイム
   - 全点対間最短路 $O((V + E)V\log V)$ (Johnson)
 - 全域木
   - 最小全域森 (Kruskal)
+  - 行列木定理
 - フロー
   - [最大流 (Dinic)](./snippets/dinic)
   - [最大流 (Ford Fulkerson)](./snippets/ford-fulkerson)
