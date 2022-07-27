@@ -179,7 +179,7 @@ superねこみみタイム
     - Module-LWE
       - CRYSTALS
     - LWR
-  - TFHE (Torus Fully Homomorphic Encryption)
+  - [TFHE (Torus Fully Homomorphic Encryption)](./snippets/tfhe)
 - 多項式
   - [Coppersmith Method](./snippets/coppersmith)
   - グレブナー基底
