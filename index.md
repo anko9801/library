@@ -236,7 +236,7 @@ superねこみみタイム
   - MD5
 - 疑似乱数生成器 (PRNG)
   - Xorshift
-  - Mersenne twister
+  - [Mersenne twister](./snippets/mersenne-twister)
 
 ## Web
 
