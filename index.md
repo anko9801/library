@@ -203,7 +203,8 @@ superねこみみタイム
     - [Partial Key Exposure Attack](./snippets/partial-key)
     - [逆元が存在しないとき](./snippets/no-inverse)
 - 楕円曲線
-  - Millarのアルゴリズム
+  - Millar のアルゴリズム
+  - Scoof のアルゴリズム
   - Tate pairing / Weil pairing
   - ECFFT
 - 楕円曲線暗号
@@ -244,7 +245,7 @@ superねこみみタイム
 
 ## Web
 
-Webに関してはよわよわなので読み込みたい資料リストを並べます。
+Webに関してはよわよわなので読み込むと良いかもしれない資料リストを集めています。
 
 - [CTFにおけるWebセキュリティ入門とまとめ](https://blog.hamayanhamayan.com/entry/2021/12/01/194114)
 - 常設Web問
