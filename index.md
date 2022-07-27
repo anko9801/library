@@ -161,7 +161,7 @@ superねこみみタイム
   - SVP
     - [Lagrange 基底簡約 (Gauss 基底簡約)](./snippets/lagrange)
     - [サイズ基底簡約](./snippets/size-reduction)
-    - LLL 基底簡約
+    - [LLL 基底簡約](./snippets/lll)
     - BKZ 基底簡約
     - Kannan’s embedding method
   - CVP
