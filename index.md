@@ -219,6 +219,7 @@ superねこみみタイム
     - Invalid Curve Attack
     - GHS Attack
     - Weil decsent
+- ブロック暗号
 - Hash
   - Merkle-Damgård construction
   - SHA (Secure Hash Algorithm)
@@ -231,7 +232,14 @@ superねこみみタイム
 
 Webに関してはよわよわなので読み込みたい資料リストを並べます。
 
-[CTFにおけるWebセキュリティ入門とまとめ](https://blog.hamayanhamayan.com/entry/2021/12/01/194114)
+- [CTFにおけるWebセキュリティ入門とまとめ](https://blog.hamayanhamayan.com/entry/2021/12/01/194114)
+- 常設Web問
+  - [Web Security Academy](https://portswigger.net/web-security/all-labs)
+  - [KENRO](https://kenro.flatt.tech)
+  - [wargame.kr](http://wargame.kr)
+  - [XSS Game](https://xss-game.appspot.com)
+  - [The Lord of the SQLI](https://los.rubiya.kr)
+- [SQL Injection list](https://github.com/payloadbox/sql-injection-payload-list)
 
 ## その他
 
