@@ -7,13 +7,6 @@ superねこみみタイム
 
 これらはCC0ライセンスです。
 
-<!-- {% assign mydocs = site.snippets | group_by: 'category' %}
-{% for cat in mydocs %}
-
-## {{ cat.name }}
-{% assign items = cat.items | sort: 'title' %}{% for item in items %}
-- [{{item.title}}]({{ item.url | relative_url }}){% endfor %}{% endfor %} -->
-
 ## データ構造
 
 - UnionFind
@@ -56,11 +49,6 @@ superねこみみタイム
   - 最小共通祖先
 - 最大クリーク
 - [強連結成分分解](./snippets/scc)
-
-<!--
-- [ランレングス圧縮](./snippets/run-length-encode)
-- [反復写像](./snippets/iterated-function)
--->
 
 ## 数学
 
@@ -188,7 +176,8 @@ superねこみみタイム
   - MQ 問題
   - Matsumoto-Imai 暗号 / HFE 暗号
   - NTRU 暗号
-  - Rainbow 署名 (UOV 署名 / QR-UOV 署名)
+  - Rainbow 署名
+  - UOV 署名 / QR-UOV 署名
 - [離散対数問題 (DLP)](./snippets/dlp)
   - [Baby-step Giant-step](./snippets/bsgs)
   - [Pollard's rho 法](./snippets/pollards-rho)
@@ -252,6 +241,12 @@ Webに関してはよわよわなので読み込みたい資料リストを並�
 - Z3
   - シンボリック実行エンジン
 - ブロックチェーン
+- デバッガ
+- 定理証明支援系
+- プログラミング言語
+- CPU / GPU
+- RDBMS
+- ランレングス圧縮
 
 ## テンプレート
 
