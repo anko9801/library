@@ -102,7 +102,6 @@ superねこみみタイム
 - [焼きなまし法](./snippets/simulated-annealing)
 - [ビームサーチ](./snippets/beam-search)
 - [chokudai サーチ](./snippets/chokudai-search)
-- Deep Learning
 
 ## Pwn
 
