@@ -12,4 +12,4 @@ mmap
 main_arena
 
 ## 参考
-https://www.valinux.co.jp/technologylibrary/document/linux/malloc0001/
+[malloc(3)のメモリ管理構造](https://www.valinux.co.jp/technologylibrary/document/linux/malloc0001/)

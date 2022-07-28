@@ -59,4 +59,4 @@ $O(k\log^3 n)$ 、FFTベースの乗算を用いると $Õ(k\log^2 n)$
 ## 使用例
 
 ## 参考
-http://miller-rabin.appspot.com/
+[Deterministic variants of the Miller-Rabin primality test](http://miller-rabin.appspot.com/)

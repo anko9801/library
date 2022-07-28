@@ -14,4 +14,4 @@ SageMathのプログラムを書くときに参照したいと思うチートシ
 {% include python.html code="template/sagemath.py" %}
 
 ## 参考
-https://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref.pdf
+- [quickref](https://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref.pdf)

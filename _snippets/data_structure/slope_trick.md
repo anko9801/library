@@ -17,5 +17,5 @@ layout: library
 
 ## 参考
 
-- https://maspypy.com/slope-trick-1-%E8%A7%A3%E8%AA%AC%E7%B7%A8
-- https://maspypy.com/slope-trick-2-%e5%95%8f%e9%a1%8c%e7%b7%a8
+- [slope trick (1) 解説編](https://maspypy.com/slope-trick-1-%E8%A7%A3%E8%AA%AC%E7%B7%A8)
+- [slope trick (2) 問題編](https://maspypy.com/slope-trick-2-%e5%95%8f%e9%a1%8c%e7%b7%a8)

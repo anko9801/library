@@ -36,4 +36,4 @@ $$
 
 ## 参考
 
-https://inaz2.hatenablog.com/entry/2016/01/26/222303
+- [RSAに対する適応的選択暗号文攻撃とパディング方式](https://inaz2.hatenablog.com/entry/2016/01/26/222303)

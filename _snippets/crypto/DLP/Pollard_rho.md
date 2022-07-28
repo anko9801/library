@@ -68,4 +68,5 @@ $$
 ## 使用例
 
 ## 参考
-The Arithmetic of Elliptic Curves. p.383
+
+- The Arithmetic of Elliptic Curves. p.383

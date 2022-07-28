@@ -27,4 +27,4 @@ $$
 
 ## 関連
 
-https://furutsuki.hatenablog.com/entry/2021/12/07/020611
+- [They Were Eleven - BSides Ahmedabad CTF 2021 author's writeup](https://furutsuki.hatenablog.com/entry/2021/12/07/020611)

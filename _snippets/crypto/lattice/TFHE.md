@@ -7,4 +7,4 @@ layout: library
 
 ## 参考
 
-https://nindanaoto.github.io/
+- [松岡航太郎さんの資料](https://nindanaoto.github.io/)
