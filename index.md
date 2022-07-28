@@ -100,8 +100,9 @@ superねこみみタイム
 
 - [山登り法](./snippets/hill-climbing)
 - [焼きなまし法](./snippets/simulated-annealing)
+- 貪欲法
 - [ビームサーチ](./snippets/beam-search)
-- chokudai サーチ
+- [chokudai サーチ](./snippets/chokudai-search)
 - Deep Learning
 
 ## Pwn
