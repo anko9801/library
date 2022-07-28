@@ -28,7 +28,7 @@ $d_i=z_0+z_1p_i+z_2p_i^2+\ldots+z_{e_i−1}p_i^{e_i−1} \pmod{p_i^{e_i}} \quad 
 
 ## 実装
 
-{% include python.html code="crypto/pohlig_hellman.sage" %}
+{% include python.html code="crypto/ECC/pohlig_hellman.sage" %}
 
 ## 使用例
 

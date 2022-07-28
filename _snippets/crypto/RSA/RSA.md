@@ -42,6 +42,6 @@ $$
 
 ## 実装
 
-{% include python.html code="crypto/rsa.py" %}
+{% include python.html code="crypto/RSA/rsa.py" %}
 
 ## 使用例

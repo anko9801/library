@@ -71,11 +71,11 @@ $$
 
 ## 実装
 
-{% include python.html code="crypto/partial_key_exposure.sage" %}
+{% include python.html code="crypto/RSA/partial_key_exposure.sage" %}
 
 ## 使用例
 
-{% include python.html code="crypto/partial_key_exposure_ex.sage" %}
+{% include python.html code="crypto/RSA/partial_key_exposure_ex.sage" %}
 
 ## 参考
 

@@ -12,7 +12,7 @@ layout: library
 
 ## 実装
 
-{% include python.html code="crypto/pohlig_hellman.sage" %}
+{% include python.html code="crypto/ECC/pohlig_hellman.sage" %}
 
 ## 使用例
 

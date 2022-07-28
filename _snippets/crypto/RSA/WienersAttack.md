@@ -29,6 +29,6 @@ $$
 
 ## 実装
 
-{% include python.html code="crypto/wieners_attack.py" %}
+{% include python.html code="crypto/RSA/wieners_attack.py" %}
 
 ## 使用例

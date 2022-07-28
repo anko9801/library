@@ -21,6 +21,6 @@ $$
 
 ## 実装
 
-{% include python.html code="crypto/boneh_durfee.sage" %}
+{% include python.html code="crypto/RSA/boneh_durfee.sage" %}
 
 ## 使用例
