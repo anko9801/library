@@ -13,6 +13,6 @@ $O(FE)$
 
 ## 実装
 
-{% include cpp.html code="graph/flow/ford_fulkerson.cpp" %}
+{% include cpp.html code="graph/flow/ford_fulkerson.hpp" %}
 
 ## 使用例

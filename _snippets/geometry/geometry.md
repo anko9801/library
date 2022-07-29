@@ -14,7 +14,7 @@ layout: library
 
 ## 実装
 
-{% include cpp.html code="geometry/geometry.cpp" %}
+{% include cpp.html code="geometry/geometry.hpp" %}
 
 ## 使用例
 
