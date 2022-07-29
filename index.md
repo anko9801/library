@@ -17,10 +17,10 @@ superねこみみタイム
 - Segment Tree
   - [セグメント木](./snippets/segtree)
   - [遅延セグメント木](./snippets/lazysegtree)
-  - [Segment tree beats](./snippets/segtreebeats)
+  - [Segment Tree Beats](./snippets/segtreebeats)
 - 平衡二分探索木
-  - AVL木
   - 赤黒木
+  - AVL木
   - Splay木
   - Treap
 - Wavelet Matrix
