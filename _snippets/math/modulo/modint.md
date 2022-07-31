@@ -14,3 +14,5 @@ layout: library
 {% include cpp.html code="math/modulo/modint.hpp" %}
 
 ## 使用例
+
+[ABC262 D - I Hate Non-integer Number](https://atcoder.jp/contests/abc262/submissions/33693576)
