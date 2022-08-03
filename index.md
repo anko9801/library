@@ -230,10 +230,10 @@ CTFのライブラリ/知識集です。
       - CFB (Cipher Feedback)
       - AES-GCM (Galois/Counter Mode)
     - 攻撃
-      - Padding Oracle Attack (2002年)
-      - BEAST 攻撃 (2011年)
-      - Lucky Thirteen 攻撃 (2013年)
-      - POODLE 攻撃
+      - Padding Oracle Attack
+      - BEAST Attack
+      - Lucky Thirteen Attack
+      - POODLE Attack
       - ghash
       - Integral Cryptanalysis
 - Hash
