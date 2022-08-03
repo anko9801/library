@@ -9,11 +9,9 @@ superねこみみタイム
 
 CTFのライブラリ/知識集です。
 
-競プロはライブラリ化されたものがよく出回ってるけど、CTFの方はほとんど閉じた場所でしか共有されてないよな～と思ったのであんこ(将来的にtraPのCTF班)がまとめたものです。ついでにCTFに関連する知識も全て書いていこうという気概なので競プロなどもまとめていきたいと思います。(といってもまだまだ工事中)
+競プロはライブラリ化されたものがよく出回ってるけど、CTFの方はほとんど閉じた場所でしか共有されてないよな～と思ったのであんこ(将来的にtraPのCTF班)がまとめたものです。CTFに関連する知識を全て書いていこうという気概なので競プロ、雑学などもまとめていきたいと思います。また、Wiki的な立ち位置にしたいと思ってるので編集したいという方は大歓迎です！気軽にプルリク投げてください～
 
-これらはCC0ライセンスですので自由にコピペしてOKです！
-
-またWiki的な立ち位置にしたいと思ってるので編集したいという方は大歓迎です。気軽にプルリク投げてください。なの！
+これらはCC0ライセンスとします。自由にコピペしてOKです！
 
 ## データ構造
 
@@ -119,11 +117,13 @@ CTFのライブラリ/知識集です。
 - Stack Exploit
   - ret2xxx
     - ret2libc
-  - Return Oriented Programming
+  - ROP: Return Oriented Programming
 - GOT overwrite
 - Heap Exploit
   - glibc malloc
   - tcache poisoning
+  - tcache double free
+  - fastbin attack
   - House of XXX
     - House of Orange
     - House of Spirit
@@ -142,17 +142,18 @@ CTFのライブラリ/知識集です。
 
 - 暗号構成基盤
   - [Diffie-Hellman 鍵交換](./snippets/diffie-hellman)
-  - [Schnorr Signatures](./snippets/schnorr)
-  - Fiat-Shamir 型署名
+  - Fiat-Shamir 変換
+    - [Schnorr Signatures](./snippets/schnorr)
+    - Frozen Heart
   - Lamport 署名
-- ゼロ知識証明
+  - ゼロ知識証明
 - 格子
   - Gram-Schmidt
   - SVP (Shortest Vector Problem)
     - [Lagrange 基底簡約 (Gauss 基底簡約)](./snippets/lagrange)
     - [サイズ基底簡約](./snippets/size-reduction)
     - [LLL 基底簡約](./snippets/lll)
-    - BKZ 基底簡約
+    - BKZ 基底簡約 / HKZ 基底簡約
     - Kannan’s embedding method
   - CVP (Closest Vector Problem)
     - Babai’s Algorithm
@@ -179,14 +180,14 @@ CTFのライブラリ/知識集です。
   - NTRU 暗号
   - Rainbow 署名
   - UOV 署名 / QR-UOV 署名
-- [離散対数問題 (DLP)](./snippets/dlp)
-  - [Baby-step Giant-step](./snippets/bsgs)
-  - [Pollard's rho 法](./snippets/pollards-rho)
-  - 指数計算法 (Index Calculus Algorithm)
-  - 数体ふるい法
-  - [Pohlig–Hellman](./snippets/pohlig-hellman)
 - 数論
   - 二平方和
+  - [離散対数問題 (DLP)](./snippets/dlp)
+    - [Baby-step Giant-step](./snippets/bsgs)
+    - [Pollard's rho 法](./snippets/pollards-rho)
+    - 指数計算法 (Index Calculus Algorithm)
+    - 数体ふるい法
+    - [Pohlig–Hellman](./snippets/pohlig-hellman)
 - RSA暗号
   - 構成
     - [RSA](./snippets/rsa)
@@ -203,12 +204,14 @@ CTFのライブラリ/知識集です。
     - [Franklin-Reiter Related Message Attack](./snippets/franklin-reiter)
     - [Partial Key Exposure Attack](./snippets/partial-key)
     - [逆元が存在しないとき](./snippets/no-inverse)
-- 楕円曲線
-  - Millar のアルゴリズム
-  - Scoof のアルゴリズム
-  - Tate pairing / Weil pairing
-  - ECFFT
 - 楕円曲線暗号
+  - 楕円曲線
+    - Millar のアルゴリズム
+    - Scoof のアルゴリズム
+    - Tate pairing / Weil pairing
+    - ECFFT
+    - Fujisaki-Okamoto-Transformation
+    - 超楕円曲線
   - 構成
     - ECDH
     - SIDH
@@ -221,25 +224,24 @@ CTFのライブラリ/知識集です。
     - Invalid Curve Attack
     - GHS Attack
     - Weil decsent
-- ブロック暗号
-  - AES
-    - 構成
-      - AES-ECB (Electronic Codeblock)
-      - AES-CBC (Cipher Block Chaining)
-      - PCBC (Propagating Cipher Block Chaining)
-      - CFB (Cipher Feedback)
-      - AES-GCM (Galois/Counter Mode)
-    - 攻撃
-      - Padding Oracle Attack
-      - BEAST Attack
-      - Lucky Thirteen Attack
-      - POODLE Attack
-      - ghash
-      - Integral Cryptanalysis
+    - Dual EC DRBG
+- AES
+  - 構成
+    - AES-ECB (Electronic Codeblock)
+    - AES-CBC (Cipher Block Chaining)
+    - PCBC (Propagating Cipher Block Chaining)
+    - CFB (Cipher Feedback)
+    - AES-GCM (Galois/Counter Mode)
+  - 攻撃
+    - Padding Oracle Attack
+    - BEAST Attack
+    - Lucky Thirteen Attack
+    - POODLE Attack
+    - ghash
+    - Integral Cryptanalysis
 - Hash
   - Merkle-Damgård construction
-  - SHA (Secure Hash Algorithm)
-  - MD5
+  - 誕生日攻撃
 - 疑似乱数生成器 (PRNG)
   - Xorshift
   - [Mersenne twister](./snippets/mersenne-twister)
@@ -268,6 +270,8 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 
 - ELF
 - JPEG
+- FAT32
+- ZIP
 
 ## その他
 
