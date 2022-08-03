@@ -135,15 +135,6 @@ CTFのライブラリ/知識集です。
 - Kernel Exploit
   - Heap Spray
   - Dirty Pipe
-- TEE
-  - RISC-V Keystone
-    - BOOM
-    - Speculative Attack
-  - Intel SGX
-    - Remote Attestation
-    - ForeShadow
-  - ARM TrustZone
-    - Boomerang
 
 ## Crypto
 
@@ -268,6 +259,11 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 - 基礎回路
 - Shor のアルゴリズム
 
+## 構造探検隊
+
+- ELF
+- JPEG
+
 ## その他
 
 - 超解像
@@ -288,5 +284,6 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 - [競プロ](./snippets/template)
 - [ヒューリスティック](./snippets/heuristic)
 - [pwn](./snippets/pwn)
+- Kernel exploit
 - [angr](./snippets/angr)
 - [SageMathチートシート](./snippets/sagemath)
