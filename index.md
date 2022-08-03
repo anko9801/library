@@ -270,7 +270,7 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 - Car Hacking
 - Shell Oracle Attack
 - Z3
-  - シンボリック実行エンジン
+  - [シンボリック実行エンジン](./snippets/symbolic-execution)
 - ブロックチェーン
 - デバッガ
 - 定理証明支援系
