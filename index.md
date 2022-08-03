@@ -293,5 +293,4 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 - [ヒューリスティック](./snippets/heuristic)
 - [pwn](./snippets/pwn)
 - Kernel exploit
-- [angr](./snippets/angr)
 - [SageMathチートシート](./snippets/sagemath)

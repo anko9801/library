@@ -20,6 +20,9 @@ layout: library
 
 ## 使用例
 
+シンボリック実行エンジンのプロジェクト angr のサンプルコード。
+
+{% include python.html code="rev/rev.py" %}
 
 ## 参考
 
