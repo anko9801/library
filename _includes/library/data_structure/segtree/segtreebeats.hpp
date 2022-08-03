@@ -7,7 +7,7 @@ using namespace std;
 using ll = long long;
 #define N 10003
 
-class SegmentTree {
+class SegmentTreeBeats {
   const ll inf = 1e18;
   int n, n0;
   ll max_v[4 * N], smax_v[4 * N];
@@ -19,12 +19,8 @@ class SegmentTree {
   }
 
   void push(int k) {
-    if (max_v[k] < max_v[2 * k + 1]) {
-      update_node_max(2 * k + 1, max_v[k]);
-    }
-    if (max_v[k] < max_v[2 * k + 2]) {
-      update_node_max(2 * k + 2, max_v[k]);
-    }
+    if (max_v[k] < max_v[2 * k + 1]) update_node_max(2 * k + 1, max_v[k]);
+    if (max_v[k] < max_v[2 * k + 2]) update_node_max(2 * k + 2, max_v[k]);
   }
 
   void update(int k) {
@@ -46,9 +42,7 @@ class SegmentTree {
   }
 
   void _update_min(ll x, int a, int b, int k, int l, int r) {
-    if (b <= l || r <= a || max_v[k] <= x) {
-      return;
-    }
+    if (b <= l || r <= a || max_v[k] <= x) return;
     if (a <= l && r <= b && smax_v[k] < x) {
       update_node_max(k, x);
       return;
@@ -61,12 +55,8 @@ class SegmentTree {
   }
 
   ll _query_max(int a, int b, int k, int l, int r) {
-    if (b <= l || r <= a) {
-      return 0;
-    }
-    if (a <= l && r <= b) {
-      return max_v[k];
-    }
+    if (b <= l || r <= a) return 0;
+    if (a <= l && r <= b) return max_v[k];
     push(k);
     ll lv = _query_max(a, b, 2 * k + 1, l, (l + r) / 2);
     ll rv = _query_max(a, b, 2 * k + 2, (l + r) / 2, r);
@@ -74,12 +64,8 @@ class SegmentTree {
   }
 
   ll _query_sum(int a, int b, int k, int l, int r) {
-    if (b <= l || r <= a) {
-      return 0;
-    }
-    if (a <= l && r <= b) {
-      return sum[k];
-    }
+    if (b <= l || r <= a) return 0;
+    if (a <= l && r <= b) return sum[k];
     push(k);
     ll lv = _query_sum(a, b, 2 * k + 1, l, (l + r) / 2);
     ll rv = _query_sum(a, b, 2 * k + 2, (l + r) / 2, r);
@@ -87,12 +73,11 @@ class SegmentTree {
   }
 
 public:
-  SegmentTree(int n) { SegmentTree(n, nullptr); }
+  SegmentTreeBeats(int n) { SegmentTreeBeats(n, nullptr); }
 
-  SegmentTree(int n, ll *a) : n(n) {
+  SegmentTreeBeats(int n, ll *a) : n(n) {
     n0 = 1;
-    while (n0 < n)
-      n0 <<= 1;
+    while (n0 < n) n0 <<= 1;
 
     for (int i = 0; i < n; ++i) {
       max_v[n0 - 1 + i] = sum[n0 - 1 + i] = (a != nullptr ? a[i] : 0);
@@ -104,8 +89,7 @@ public:
       max_v[n0 - 1 + i] = smax_v[n0 - 1 + i] = -inf;
       sum[n0 - 1 + i] = max_c[n0 - 1 + i] = 0;
     }
-    for (int i = n0 - 2; i >= 0; i--)
-      update(i);
+    for (int i = n0 - 2; i >= 0; i--) update(i);
   }
 
   // range minimize query

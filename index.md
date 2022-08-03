@@ -256,21 +256,29 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 - FAT32
 - ZIP
 
+## 電子回路
+
+- SDR
+- SPI
+- JTAG
+
 ## 雑学
 
+- ピッキング
 - CPU / GPU
 - bit trick
   - XOR swap
 - Car Hacking
 - 仮想化技術
 - プログラミング言語
+- 未定義動作
 - デバッガ
 - データベース
-- ランレングス圧縮
 - Z3
   - [シンボリック実行エンジン](./snippets/symbolic-execution)
 - 定理証明支援系
-- 超解像
+- Deep Learning
+  - 超解像
 
 ## テンプレート
 
