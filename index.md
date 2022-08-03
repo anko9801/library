@@ -203,7 +203,7 @@ CTFのライブラリ/知識集らしいです。(現在はLYTに近い思想で
 - 楕円曲線暗号
   - 楕円曲線
     - Millar のアルゴリズム
-    - Scoof のアルゴリズム
+    - Schoof のアルゴリズム
     - Tate pairing / Weil pairing
     - ECFFT
     - Fujisaki-Okamoto-Transformation
