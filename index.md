@@ -205,12 +205,8 @@ CTFのライブラリ/知識集らしいです。(現在はLYTに近い思想で
     - Schoof のアルゴリズム
     - Tate pairing / Weil pairing
     - ECFFT
-    - Fujisaki-Okamoto-Transformation
+    - Fujisaki-Okamoto Transformation
     - 超楕円曲線
-  - 構成
-    - ECDH
-    - SIDH
-    - SIKE
   - 攻撃
     - [Pohlig-Hellman Attack](./snippets/pohlig-hellman-ec)
     - MOV Reduction
@@ -221,21 +217,13 @@ CTFのライブラリ/知識集らしいです。(現在はLYTに近い思想で
     - Weil decsent
     - Dual EC DRBG
 - AES
-  - 構成
-    - AES-ECB (Electronic Codeblock)
-    - AES-CBC (Cipher Block Chaining)
-    - PCBC (Propagating Cipher Block Chaining)
-    - CFB (Cipher Feedback)
-    - AES-GCM (Galois/Counter Mode)
-  - 攻撃
-    - Padding Oracle Attack
-    - BEAST Attack
-    - Lucky Thirteen Attack
-    - POODLE Attack
-    - ghash
-    - Integral Cryptanalysis
+  - Padding Oracle Attack
+  - BEAST Attack
+  - Lucky Thirteen Attack
+  - POODLE Attack
+  - ghash
+  - Integral Cryptanalysis
 - Hash
-  - Merkle-Damgård construction
   - 誕生日攻撃
 - 疑似乱数生成器 (PRNG)
   - Xorshift

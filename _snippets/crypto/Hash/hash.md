@@ -14,3 +14,4 @@ layout: library
 HMAC (Hash-based MAC)
 
 伸長攻撃
+- Merkle-Damgård construction
