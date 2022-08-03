@@ -76,12 +76,11 @@ CTFのライブラリ/知識集らしいです。(現在はLYTに近い思想で
   - [高速素因数分解 (Pollard-$\rho$法/Millar-Rabin)](./snippets/fast-factorize)
   - 素数判定
   - [素数列挙 (エラトステネスの篩)](./snippets/primes)
-- 多項式
-  - 多項式GCD
-- 形式的冪級数
 - [高速ゼータ変換/高速メビウス変換](./snippets/zeta)
 - [高速フーリエ変換(FFT)](./snippets/fft)
 - [数論変換(NTT)](./snippets/ntt)
+- 多項式GCD
+- 形式的冪級数
 - 任意mod畳み込み
 - 数論的関数
   - オイラーの$\phi$関数
