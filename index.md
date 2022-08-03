@@ -143,6 +143,9 @@ CTFのライブラリ/知識集です。
 - 暗号構成基盤
   - [Diffie-Hellman 鍵交換](./snippets/diffie-hellman)
   - [Schnorr Signatures](./snippets/schnorr)
+  - Fiat-Shamir 型署名
+  - Lamport 署名
+- ゼロ知識証明
 - 格子
   - Gram-Schmidt
   - SVP (Shortest Vector Problem)
@@ -240,6 +243,8 @@ CTFのライブラリ/知識集です。
 - 疑似乱数生成器 (PRNG)
   - Xorshift
   - [Mersenne twister](./snippets/mersenne-twister)
+- ブロックチェーン
+  - Flash Loan Attack
 
 ## Web
 
@@ -271,7 +276,6 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 - Shell Oracle Attack
 - Z3
   - [シンボリック実行エンジン](./snippets/symbolic-execution)
-- ブロックチェーン
 - デバッガ
 - 定理証明支援系
 - プログラミング言語
