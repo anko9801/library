@@ -188,22 +188,18 @@ CTFのライブラリ/知識集です。
     - 指数計算法 (Index Calculus Algorithm)
     - 数体ふるい法
     - [Pohlig–Hellman](./snippets/pohlig-hellman)
-- RSA暗号
-  - 構成
-    - [RSA](./snippets/rsa)
-    - RSA-CRT
-  - 攻撃
-    - [Wiener's Attack](./snippets/wieners-attack)
-    - [Boneh-Durfee Attack](./snippets/boneh-durfee)
-    - [Common Modulus Attack](./snippets/common-modulus)
-    - [Håstad's Broadcast Attack](./snippets/hastads-broadcast)
-    - [Small Common Private Exponent Attack](./snippets/small-private-exponent)
-    - [適応的選択暗号文攻撃](./snippets/rsa-cca)
-    - [LSB Decryption Oracle Attack](./snippets/lsb-decryption-oracle)
-    - [RSA-CRT Fault Attack](./snippets/rsa-crt-fault)
-    - [Franklin-Reiter Related Message Attack](./snippets/franklin-reiter)
-    - [Partial Key Exposure Attack](./snippets/partial-key)
-    - [逆元が存在しないとき](./snippets/no-inverse)
+- [RSA暗号](./snippets/rsa)
+  - [Wiener's Attack](./snippets/wieners-attack)
+  - [Boneh-Durfee Attack](./snippets/boneh-durfee)
+  - [Common Modulus Attack](./snippets/common-modulus)
+  - [Håstad's Broadcast Attack](./snippets/hastads-broadcast)
+  - [Small Common Private Exponent Attack](./snippets/small-private-exponent)
+  - [適応的選択暗号文攻撃](./snippets/rsa-cca)
+  - [LSB Decryption Oracle Attack](./snippets/lsb-decryption-oracle)
+  - [RSA-CRT Fault Attack](./snippets/rsa-crt-fault)
+  - [Franklin-Reiter Related Message Attack](./snippets/franklin-reiter)
+  - [Partial Key Exposure Attack](./snippets/partial-key)
+  - [逆元が存在しないとき](./snippets/no-inverse)
 - 楕円曲線暗号
   - 楕円曲線
     - Millar のアルゴリズム
@@ -273,11 +269,15 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 - FAT32
 - ZIP
 
+## 雑学
+
+- bit trick
+  - XOR swap
+
 ## その他
 
 - 超解像
 - Car Hacking
-- Shell Oracle Attack
 - Z3
   - [シンボリック実行エンジン](./snippets/symbolic-execution)
 - デバッガ
