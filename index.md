@@ -255,6 +255,10 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
   - [The Lord of the SQLI](https://los.rubiya.kr)
 - [SQL Injection list](https://github.com/payloadbox/sql-injection-payload-list)
 
+## 量子アルゴリズム
+
+- Shor のアルゴリズム
+
 ## その他
 
 - 超解像
