@@ -142,7 +142,7 @@ CTFのライブラリ/知識集らしいです。(現在はLYTに近い思想で
 - 暗号構成基盤
   - [Diffie-Hellman 鍵交換](./snippets/diffie-hellman)
   - Fiat-Shamir 変換
-    - [Schnorr Signatures](./snippets/schnorr)
+    - [Schnorr 署名](./snippets/schnorr)
     - Frozen Heart
   - Lamport 署名
   - ゼロ知識証明
@@ -161,10 +161,10 @@ CTFのライブラリ/知識集らしいです。(現在はLYTに近い思想で
     - CLOS法
   - LWE (Learning with Errors) 暗号
     - LWE
-      - BDD (Bounded Distance Decoding) 攻撃
-      - SIS (Short Integer Solution) 攻撃
-      - BKW 攻撃
-      - Arora-Ge 攻撃
+      - BDD (Bounded Distance Decoding) Attack
+      - SIS (Short Integer Solution) Attack
+      - BKW Attack
+      - Arora-Ge Attack
     - Ring-LWE
     - Module-LWE
       - CRYSTALS
@@ -265,6 +265,7 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 
 - CPU / GPU
 - Car Hacking
+- 仮想化技術
 - プログラミング言語
 - デバッガ
 - データベース
