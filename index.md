@@ -265,6 +265,8 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 ## 雑学
 
 - ピッキング
+- Tamper Evident
+- Social Engineering
 - CPU / GPU
 - bit trick
   - XOR swap
@@ -274,6 +276,7 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 - 未定義動作
 - デバッガ
 - データベース
+- ネットワーク構成
 - Z3
   - [シンボリック実行エンジン](./snippets/symbolic-execution)
 - 定理証明支援系
