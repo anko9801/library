@@ -258,12 +258,9 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 
 ## 雑学
 
+- CPU / GPU
 - bit trick
   - XOR swap
-
-## その他
-
-- CPU / GPU
 - Car Hacking
 - 仮想化技術
 - プログラミング言語
