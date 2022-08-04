@@ -134,6 +134,7 @@ CTFのライブラリ/知識集らしいです。(現在はLYTに近い思想で
 - Kernel Exploit
   - Heap Spray
   - Dirty Pipe
+- Automatic Exploit Generation
 
 ## Crypto
 
