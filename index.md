@@ -246,8 +246,10 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 
 ## 量子アルゴリズム
 
-- 基礎回路
+- 各ゲートの紹介と量子計算の方法
 - Shor のアルゴリズム
+- 量子暗号通信
+- 量子中継ネットワーク
 
 ## 構造探検隊
 
@@ -262,16 +264,25 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 - SPI
 - JTAG
 
+## 脆弱性集
+
+- [CVEs for the Rust standard library](https://rustrepo.com/repo/Qwaz-rust-cve-rust-security-tools)
+  - [Rustのunsound hole issue #25860を理解する](https://speakerdeck.com/moratorium08/rustfalseunsound-hole-issue-number-25860woli-jie-suru)
+  - [str::repeat - stable wildcopy exploit](https://saaramar.github.io/str_repeat_exploit/)
+
 ## 雑学
 
 - ピッキング
 - Tamper Evident
 - Social Engineering
+- Car Hacking
+- 航空技術
 - CPU / GPU
+  - Spectre / Meltdown
 - bit trick
   - XOR swap
-- Car Hacking
 - 仮想化技術
+  - [ハイパーバイザの作り方](https://syuu1228.github.io/howto_implement_hypervisor/)
 - プログラミング言語
 - 未定義動作
 - デバッガ
