@@ -181,7 +181,9 @@ CTFのライブラリ/知識集らしいです。(現在はLYTに近い思想で
   - Rainbow 署名
   - UOV 署名 / QR-UOV 署名
 - 数論
-  - 二平方和
+  - ディオファントス方程式
+    - 二平方和
+    - ペル方程式
   - [離散対数問題 (DLP)](./snippets/dlp)
     - [Baby-step Giant-step](./snippets/bsgs)
     - [Pollard's rho 法](./snippets/pollards-rho)
