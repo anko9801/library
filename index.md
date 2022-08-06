@@ -53,6 +53,7 @@ CTFのライブラリ/知識集らしいです。(現在はLYTに近い思想で
 - ツリー
   - [木の直径](./snippets/tree-diameter)
   - 最小共通祖先
+- Functional Graph
 - 最大クリーク
 - [強連結成分分解](./snippets/scc)
 
@@ -302,5 +303,5 @@ Webに関してはよわよわなので読み込むと良いかもしれない�
 - [競プロ](./snippets/template)
 - [ヒューリスティック](./snippets/heuristic)
 - [pwn](./snippets/pwn)
-- Kernel exploit
+- [Kernel exploit](./snippets/kernel-exploit)
 - [SageMathチートシート](./snippets/sagemath)
