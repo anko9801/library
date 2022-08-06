@@ -11,13 +11,14 @@ layout: library
 
 楕円曲線暗号の楕円曲線の位数は細かく素因数分解できることが多い。
 
+楕円曲線の位数 $\#E = p_1^{e_1}p_2^{e_2}\ldots p_k^{e_k}$ と素因数分解できる。$Q = dP$ となるとき次のように $d_i$ を置く。
+
 $$
 \begin{aligned}
-\#E &= p_1^{e_1}p_2^{e_2}\ldots p_k^{e_k} \\
-d &= d_1 \pmod{p_1^{e_1}} \\
-d &= d_2 \pmod{p_2^{e_2}} \\
+d_1 &= d \pmod{p_1^{e_1}} \\
+d_2 &= d \pmod{p_2^{e_2}} \\
 &\vdots \\
-d &= d_k \pmod{p_k^{e_k}} \\
+d_k &= d \pmod{p_k^{e_k}} \\
 \end{aligned}
 $$
 
