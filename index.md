@@ -203,6 +203,7 @@ CTFのライブラリ/知識集らしいです。(現在はLYTに近い思想で
   - [Franklin-Reiter Related Message Attack](./snippets/franklin-reiter)
   - [Partial Key Exposure Attack](./snippets/partial-key)
   - [逆元が存在しないとき](./snippets/no-inverse)
+  - ROCA Attack
 - 楕円曲線暗号
   - 楕円曲線
     - Millar のアルゴリズム
