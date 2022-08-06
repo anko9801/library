@@ -9,7 +9,7 @@ layout: library
 
 中国剰余定理を用いて大きな群を複数の小さな群の直積に分ける。
 
-Crypto ではRSAに対し楕円曲線暗号の楕円曲線の位数は細かく素因数分解できることが多い。
+楕円曲線暗号の楕円曲線の位数は細かく素因数分解できることが多い。
 
 $$
 \begin{aligned}
@@ -24,7 +24,7 @@ $$
 それぞれの $d_i$ について次のように書ける。
 
 $$
-d_i=z_0+z_1p_i+z_2p_i^2+\ldots+z_{e_i−1}p_i^{e_i−1} \pmod{p_i^{e_i}} \quad (∀k:z_k \in [0,p_i−1])
+d_i=z_0+z_1p_i+z_2p_i^2+\ldots+z_{e_i−1}p_i^{e_i−1} \pmod{p_i^{e_i}} \quad (∀k:z_k \in [0,p_i))
 $$
 
 ここで $P_i=\frac{\\#E}{p_i}P, Q_i=\frac{\\#E}{p_i}Q$ とおくと
@@ -33,7 +33,7 @@ $$
 Q_i = d_iP_i = (z_0+z_1p_i+z_2p_i^2+\ldots+z_{e_i−1}p_i^{e_i−1})P_i = z_0P_i
 $$
 
-となり、$z_0 < p_i$ である $Q_i = z_0P_i$ についてDLPを解けば良い。
+となり, $z_0 < p_i$ である $Q_i = z_0P_i$ についてDLPを解けば良い。他についても $Q_i' = (Q_i - z_0P_i) / p_i$ とおいて同様に解けばよい。
 
 ## 実装
 
