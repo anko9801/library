@@ -19,3 +19,4 @@ layout: library
 
 ## 参考
 
+- [General purpose integer factoring](https://eprint.iacr.org/2017/1087)
